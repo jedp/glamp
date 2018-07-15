@@ -11,6 +11,13 @@
     tools:showIn="@layout/activity_main"
     >
 
+  <ImageView
+      android:id="@+id/premise_and_conclusion"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/iceland"
+      />
+
   <TextView
       android:id="@+id/word_in_our_language"
       android:layout_width="wrap_content"

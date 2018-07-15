@@ -34,7 +34,7 @@ private fun ArrayList<Card>.top() = this[0]
 private fun ArrayList<Card>.pop() = this.removeAt(0)
 
 /**
- * A deck of flash [Cards].
+ * A deck of flash [Card]s.
  *
  * Subscribe to `cards()` to observe the cards as they are drawn.
  *
@@ -73,6 +73,13 @@ class Deck(
   }
 }
 
+/**
+ * A box of flash card [Deck]s.
+ *
+ * You can get the `titles()` of the decks.
+ *
+ * You cah also `getDeck(title)`.
+ */
 class Box(
   private val decks: ArrayList<Deck>
 ) {
@@ -90,6 +97,7 @@ class Box(
                 val section = it
                 ArrayList<Card>().let deck@{
                   it.addAll(section.words.map { Card(it) })
+                  it.shuffle()
                   return@deck Deck(section.title, it)
                 }
               })

@@ -11,6 +11,7 @@ import com.jedparsons.glamp.GestureListener.Companion.gestureListener
 import kotlinx.android.synthetic.main.activity_main.toolbar
 import kotlinx.android.synthetic.main.activity_main.word_in_their_language
 import kotlinx.android.synthetic.main.content_main.flash_card_content
+import kotlinx.android.synthetic.main.content_main.premise_and_conclusion
 import kotlinx.android.synthetic.main.content_main.word_in_our_language
 import timber.log.Timber
 import timber.log.Timber.DebugTree
@@ -28,16 +29,25 @@ class MainActivity : AppCompatActivity() {
     setSupportActionBar(toolbar)
 
     box = Box.of(resources, R.raw.icelandic)
+
+    showPremiseAndConclusion(true)
   }
 
   override fun onCreateOptionsMenu(menu: Menu): Boolean {
+    menuInflater.inflate(R.menu.menu_main, menu)
     box.titles()
         .map { menu.add(it) }
     return true
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
-    chooseDeck(box.getDeck(item.toString()))
+    when (item.itemId) {
+      R.id.this_is_iceland -> showPremiseAndConclusion(true)
+      else -> {
+        showPremiseAndConclusion(false)
+        chooseDeck(box.getDeck(item.toString()))
+      }
+    }
     return true
   }
 
@@ -61,5 +71,34 @@ class MainActivity : AppCompatActivity() {
           )
           snackbar.show()
         }
+  }
+
+  /**
+   * Show Mrs. Premise and Mrs. Conclusion, and hide everything else, or vice versa.
+   */
+  private fun showPremiseAndConclusion(showThem: Boolean) {
+    val opacity = when {
+      showThem -> 1.0f
+      else -> 0.0f
+    }
+
+    // Mrs. Premise and Mrs. Conclusion.
+    premise_and_conclusion.animate()
+        .alpha(opacity)
+        .setDuration(resources.getInteger(android.R.integer.config_mediumAnimTime).toLong())
+        .setListener(null)
+
+    // The flash card word to translate.
+    word_in_our_language.animate()
+        .alpha(1.0f - opacity)
+        .setDuration(resources.getInteger(android.R.integer.config_mediumAnimTime).toLong())
+        .setListener(null)
+
+    // The translation.
+    word_in_their_language.animate()
+        .alpha(1.0f - opacity)
+        .setDuration(resources.getInteger(android.R.integer.config_mediumAnimTime).toLong())
+        .setListener(null)
+
   }
 }
