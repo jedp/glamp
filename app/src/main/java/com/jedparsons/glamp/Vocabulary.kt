@@ -13,8 +13,14 @@ data class Word(
 )
 
 @JsonClass(generateAdapter = true)
-data class Vocabulary(
+data class Section(
+  val title: String,
   val words: List<Word>
+)
+
+@JsonClass(generateAdapter = true)
+data class Vocabulary(
+  val sections: List<Section>
 )
 
 /**
@@ -33,4 +39,4 @@ fun loadWords(
           .build()
           .adapter(Vocabulary::class.java)
           .fromJson(it)
-    } ?: throw IllegalStateException("En leiðinlegt!")
+    } ?: throw RuntimeException("En leiðinlegt!")

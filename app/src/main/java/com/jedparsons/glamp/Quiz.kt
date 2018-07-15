@@ -43,23 +43,12 @@ private fun ArrayList<Card>.pop() = this.removeAt(0)
  * Call `peek()` to peek at the translation of the word.
  */
 class Deck(
+  val title: String,
   private val cards: ArrayList<Card>
 ) {
 
   private val random = Random()
   private val observable: BehaviorSubject<String> = BehaviorSubject.create()
-
-  companion object {
-
-    fun of(
-      resources: Resources,
-      @RawRes languageResourceId: Int
-    ): Deck = ArrayList<Card>()
-        .let {
-          it.addAll(loadWords(resources, languageResourceId).words.map { Card(it) })
-          return Deck(it)
-        }
-  }
 
   init {
     nextCard()
@@ -72,7 +61,7 @@ class Deck(
    */
   fun reshuffle() {
     val card = cards.pop()
-    val newIndex = min(5 + card.familiarity() * (random.nextInt(12) + 1), cards.size - 1)
+    val newIndex = min(5 + card.familiarity() * (random.nextInt(17) + 1), cards.size - 1)
     cards.add(newIndex, card)
     nextCard()
   }
@@ -82,4 +71,33 @@ class Deck(
   private fun nextCard() {
     observable.onNext(cards.top().show())
   }
+}
+
+class Box(
+  private val decks: ArrayList<Deck>
+) {
+
+  companion object {
+
+    fun of(
+      resources: Resources,
+      @RawRes languageResourceId: Int
+    ): Box = ArrayList<Deck>()
+        .let {
+          it.addAll(
+              // Make a Deck for each section in the vocabulary
+              loadWords(resources, languageResourceId).sections.map {
+                val section = it
+                ArrayList<Card>().let deck@{
+                  it.addAll(section.words.map { Card(it) })
+                  return@deck Deck(section.title, it)
+                }
+              })
+          return Box(it)
+        }
+  }
+
+  fun titles() = decks.map { it.title }
+
+  fun getDeck(title: String) = decks.first { it.title == title }
 }

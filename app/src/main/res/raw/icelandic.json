@@ -1,950 +1,968 @@
 {
-  "words": [
-    {
-      "inOurLanguage": "much, very",
-      "inTheirLanguage": "mjög",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "everything",
-      "inTheirLanguage": "allt",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "United States",
-      "inTheirLanguage": "Bandaríkin",
-      "type": "n n pl def"
-    },
-    {
-      "inOurLanguage": "only, just",
-      "inTheirLanguage": "bara",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "bye",
-      "inTheirLanguage": "bless",
-      "type": "interj"
-    },
-    {
-      "inOurLanguage": "hi!",
-      "inTheirLanguage": "blessaður (blessuð)",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "to start",
-      "inTheirLanguage": "byrja, -aði, -að(ur)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "not; don't",
-      "inTheirLanguage": "ekki",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "but",
-      "inTheirLanguage": "en",
-      "type": "conj"
-    },
-    {
-      "inOurLanguage": "I; we",
-      "inTheirLanguage": "ég, mig, mér, okkur, okkur, okkar",
-      "type": "pron"
-    },
-    {
-      "inOurLanguage": "to go",
-      "inTheirLanguage": "fara, fer, fór, fórum, farinn (-ið)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "from",
-      "inTheirLanguage": "frá",
-      "type": "prep +dat"
-    },
-    {
-      "inOurLanguage": "amazing, brilliant, superb",
-      "inTheirLanguage": "frábær (-, -t)",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "fun",
-      "inTheirLanguage": "gaman, (-ni), -ans",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "to go",
-      "inTheirLanguage": "ganga (gá) geng, gekk, gengum, genginn (-iö)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "good",
-      "inTheirLanguage": "gódur, gód, gott",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "here",
-      "inTheirLanguage": "hér",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "who, what",
-      "inTheirLanguage": "hver, hver, hvert; hvaö",
-      "type": "pron"
-    },
-    {
-      "inOurLanguage": "where from",
-      "inTheirLanguage": "hvaðan",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "how",
-      "inTheirLanguage": "hvernig",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "yes",
-      "inTheirLanguage": "já",
-      "type": "interj"
-    },
-    {
-      "inOurLanguage": "maybe",
-      "inTheirLanguage": "kannski",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "to teach",
-      "inTheirLanguage": "kenna, kenndi, kenndur (kennt)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "teacher",
-      "inTheirLanguage": "kennari, -a, -ar",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "introduce, make known",
-      "inTheirLanguage": "kynna, kynnti, kynnt(ur)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "get acquainted with, meet",
-      "inTheirLanguage": "að kynnast",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "actor",
-      "inTheirLanguage": "leikari, -a, -ar",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "also",
-      "inTheirLanguage": "líka",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "to study, learn",
-      "inTheirLanguage": "læra, lærði, lærður (lært)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "studies, learning",
-      "inTheirLanguage": "nám, -s, -",
-      "type": "n n"
-    },
-    {
-      "inOurLanguage": "student",
-      "inTheirLanguage": "nemandi, -a, -endur",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "history",
-      "inTheirLanguage": "sagnfræði, -s, -",
-      "type": "n f"
-    },
-    {
-      "inOurLanguage": "to say",
-      "inTheirLanguage": "segja, sagði, sagður (sagt)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "later",
-      "inTheirLanguage": "seinna",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "to see",
-      "inTheirLanguage": "sjá, sé, sá, sáum, séð(ur)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "see you!",
-      "inTheirLanguage": "sjáumst!",
-      "type": "v st-form"
-    },
-    {
-      "inOurLanguage": "hi! (be) well!",
-      "inTheirLanguage": "sæll, sæl, sælt; sælir, sælar, sælul",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "likewise",
-      "inTheirLanguage": "sömuleiðis",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "time; class",
-      "inTheirLanguage": "tími, -a, -ar",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "to be",
-      "inTheirLanguage": "vera; er, ert; var; vorum, vórum; verið",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "I; we",
-      "inTheirLanguage": "ég, mig, mér, mín; við, okkur, okkur, okkar",
-      "type": "pron"
-    },
-    {
-      "inOurLanguage": "you",
-      "inTheirLanguage": "þú, þig, þér, þín; þið, ykkur, ykkur, ykkar",
-      "type": "pron"
-    },
-    {
-      "inOurLanguage": "he, him, his",
-      "inTheirLanguage": "hann, hann, honum, hans; þeir, þá, þeim, þeirra",
-      "type": "pron"
-    },
-    {
-      "inOurLanguage": "she, her",
-      "inTheirLanguage": "hún, hana, henni, hennar; þær, þær, þeim, þeirra",
-      "type": "pron"
-    },
-    {
-      "inOurLanguage": "it, its",
-      "inTheirLanguage": "það, það, því, þess; þau, þau, þeim, þeirra",
-      "type": "pron"
-    },
-    {
-      "inOurLanguage": "How are you doing?",
-      "inTheirLanguage": "Hvað segirðu gott?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "What's up?",
-      "inTheirLanguage": "Hvað er að frétta?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Just fine",
-      "inTheirLanguage": "Allt gott; allt ágætt",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Nothing special",
-      "inTheirLanguage": "Ekkert sérstakt",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Sorry",
-      "inTheirLanguage": "Fyrirgefðu, fyrirgefði",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Excuse me",
-      "inTheirLanguage": "Afsakaðu, afsakið",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Thanks",
-      "inTheirLanguage": "Takk",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Thanks (for the food)",
-      "inTheirLanguage": "Þakka þér/ykkur fyrir",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Ok, no problem",
-      "inTheirLanguage": "Allt í lagi",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "No problem!",
-      "inTheirLanguage": "Ekkert mál",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I am called (for first names)",
-      "inTheirLanguage": "Ég heiti ...",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I'm called (for nicknames)",
-      "inTheirLanguage": "Ég er kallaður, kölluð",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "This is ...",
-      "inTheirLanguage": "Þetta er ...",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Bye bye!",
-      "inTheirLanguage": "Bless bless!",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I'll hear from you!",
-      "inTheirLanguage": "Heyrumst!",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Goodbye!",
-      "inTheirLanguage": "Vertu sæll, sæl",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Good day",
-      "inTheirLanguage": "Góðan dag, góðan daginn",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Good evening",
-      "inTheirLanguage": "Gott kvöld, góða kvöldið",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "My name is Hrafnhildur. What is your name?",
-      "inTheirLanguage": "Ég heiti Hrafnhildur. Hvað heitir þú?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Are you a student here?",
-      "inTheirLanguage": "Ertu nemandi hér?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I am learning Icelandic",
-      "inTheirLanguage": "Ég er að læra íslensku",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I am not a student",
-      "inTheirLanguage": "Ég er ekki nemandi",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I teach history",
-      "inTheirLanguage": "Ég kenni sagnfrædi",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "The class is starting",
-      "inTheirLanguage": "Tíminn er að byrja",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I have to go",
-      "inTheirLanguage": "Ég verð að fara",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "How are your studies going?",
-      "inTheirLanguage": "Hvernig gengur námið?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "This is my husband; my wife",
-      "inTheirLanguage": "Þetta er maðurinn minn; konan mín",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "still",
-      "inTheirLanguage": "enn",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "French (language)",
-      "inTheirLanguage": "franska",
-      "type": "n f"
-    },
-    {
-      "inOurLanguage": "to do",
-      "inTheirLanguage": "gera, gerði, gerður (gert)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "university",
-      "inTheirLanguage": "háskóli",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "how",
-      "inTheirLanguage": "hvernig",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "together",
-      "inTheirLanguage": "saman",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "a bit",
-      "inTheirLanguage": "smá",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "so",
-      "inTheirLanguage": "svo",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "to speak, talk",
-      "inTheirLanguage": "tala, -aði, -að",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "Really!?",
-      "inTheirLanguage": "Hvað ertu að segja!",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Huh, what did you say?",
-      "inTheirLanguage": "Ha, hvað segirðu?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Excuse me, what did you say?",
-      "inTheirLanguage": "Fyrirgefðu, hvað segirðu?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Sorry, I don't understand you",
-      "inTheirLanguage": "Fyrirgefðu, ég skil þig ekki",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Can you speak (a bit) slower?",
-      "inTheirLanguage": "Geturðu talað (aðeins) hægar?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "You speak too quickly for me",
-      "inTheirLanguage": "Þú talar of hratt fyrir mig",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Could you explain this again?",
-      "inTheirLanguage": "Geturðu útskýrt þetta aftur?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "That's great!",
-      "inTheirLanguage": "En frábært!",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "That's fun!",
-      "inTheirLanguage": "En skemmtilegt!",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "That's (too) bad!",
-      "inTheirLanguage": "En leiðinlegt!",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "You talk way too much",
-      "inTheirLanguage": "Þú talar alltof mikið",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Hrafnhildur is speaking",
-      "inTheirLanguage": "Hrafinhildur er að tala",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I don't understand what you are saying",
-      "inTheirLanguage": "Ég skill ekki hvað þú ert að segja",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Great to meet you",
-      "inTheirLanguage": "Gaman að kynnast þér, ykkur",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "We could speak together in French!",
-      "inTheirLanguage": "Við getum þá talað saman á frönsku!",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I don't speak so well",
-      "inTheirLanguage": "Ég tala ekki svo vel",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "totally",
-      "inTheirLanguage": "alveg",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "orange juice",
-      "inTheirLanguage": "appelsínusafi",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "seconds, second helping",
-      "inTheirLanguage": "ábót",
-      "type": "n f"
-    },
-    {
-      "inOurLanguage": "fine",
-      "inTheirLanguage": "ágætt",
-      "type": "adj n"
-    },
-    {
-      "inOurLanguage": "things to put on bread",
-      "inTheirLanguage": "álegg",
-      "type": "n n"
-    },
-    {
-      "inOurLanguage": "to invite; to offer",
-      "inTheirLanguage": "bjóða, býð, bauð, buðum, boðinn (-ið)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "bread",
-      "inTheirLanguage": "brauð",
-      "type": "n n"
-    },
-    {
-      "inOurLanguage": "plate, dish",
-      "inTheirLanguage": "diskur",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "if",
-      "inTheirLanguage": "ef",
-      "type": "conj"
-    },
-    {
-      "inOurLanguage": "to go",
-      "inTheirLanguage": "fara, fer, fór, fórum, farinn (-ið)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "drinking glass",
-      "inTheirLanguage": "glas",
-      "type": "n n"
-    },
-    {
-      "inOurLanguage": "smoked lamb",
-      "inTheirLanguage": "hangikjöt",
-      "type": "n n"
-    },
-    {
-      "inOurLanguage": "a knife",
-      "inTheirLanguage": "knífur",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "yogurt",
-      "inTheirLanguage": "jógúrt",
-      "type": "n n"
-    },
-    {
-      "inOurLanguage": "coffee",
-      "inTheirLanguage": "kaffi",
-      "type": "n n"
-    },
-    {
-      "inOurLanguage": "lamb meat",
-      "inTheirLanguage": "lambakjöt",
-      "type": "n n"
-    },
-    {
-      "inOurLanguage": "more",
-      "inTheirLanguage": "meira",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "milk",
-      "inTheirLanguage": "mjólk",
-      "type": "n f"
-    },
-    {
-      "inOurLanguage": "breakfast",
-      "inTheirLanguage": "morgunmatur",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "new",
-      "inTheirLanguage": "nýr, ný, nýtt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "cheese",
-      "inTheirLanguage": "ostur",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "to smoke",
-      "inTheirLanguage": "reykja, reykti, reykt(ur)",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "dish",
-      "inTheirLanguage": "réttur",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "full",
-      "inTheirLanguage": "saddur",
-      "type": "m"
-    },
-    {
-      "inOurLanguage": "particularly Icelandic",
-      "inTheirLanguage": "séríslenskur, -, -t",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "very",
-      "inTheirLanguage": "rosalega",
-      "type": "adv"
-    },
-    {
-      "inOurLanguage": "skyr",
-      "inTheirLanguage": "skyr",
-      "type": "n n"
-    },
-    {
-      "inOurLanguage": "to taste",
-      "inTheirLanguage": "smakka, -, -ði, -ð",
-      "type": "v"
-    },
-    {
-      "inOurLanguage": "tasteless, tacky",
-      "inTheirLanguage": "smekklaus, -laus, -laust",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "man with good taste",
-      "inTheirLanguage": "smekkmaður",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "butter",
-      "inTheirLanguage": "smjör",
-      "type": "n n"
-    },
-    {
-      "inOurLanguage": "sugar",
-      "inTheirLanguage": "sykur",
-      "type": "n m"
-    },
-    {
-      "inOurLanguage": "sugar-free",
-      "inTheirLanguage": "sykurlaus, -laus, -laust",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "white",
-      "inTheirLanguage": "hvítur, hvít, hvítt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "black",
-      "inTheirLanguage": "svartur, svört, svart",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "red",
-      "inTheirLanguage": "rauður, rauð, rautt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "yellow",
-      "inTheirLanguage": "gulur, gul, gult",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "orange (color)",
-      "inTheirLanguage": "appelsínungulur, -gul, -gult",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "pink",
-      "inTheirLanguage": "bleikur, bleik, bleikt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "blue",
-      "inTheirLanguage": "blár, blá, blátt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "purple",
-      "inTheirLanguage": "fjólublár, fjólublá, fjólublátt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "gray",
-      "inTheirLanguage": "grár, grá, grátt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "brown",
-      "inTheirLanguage": "brúnn, brún, brúnt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "green",
-      "inTheirLanguage": "grænn, græn, grænt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "Icelandic",
-      "inTheirLanguage": "íslenskur, -, -t",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "boring",
-      "inTheirLanguage": "leiðinlegur, leiðinleg, leiðinlegt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "hungry",
-      "inTheirLanguage": "svangur, svöng, svangt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "lazy",
-      "inTheirLanguage": "latur, löt, latt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "happy",
-      "inTheirLanguage": "hamingjusam, hamingjusöm, hamingjusamt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "cold",
-      "inTheirLanguage": "kaldur, köld, kalt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "darkhaired",
-      "inTheirLanguage": "dökkhærður, dökkhærð, dökkhært",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "big",
-      "inTheirLanguage": "stór, stór, stórt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "clear",
-      "inTheirLanguage": "skýr, skýr, skýrt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "polite",
-      "inTheirLanguage": "kurteis, kurteis, kurteist",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "healthy, in good spirits",
-      "inTheirLanguage": "hress, hress, hresst",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "warm",
-      "inTheirLanguage": "hlýr, hlý, hlýtt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "high",
-      "inTheirLanguage": "hár, há, hátt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "shy",
-      "inTheirLanguage": "feiminn, feimin, feimið",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "in love",
-      "inTheirLanguage": "ástfanginn, ástfangin, ástfangið",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "little",
-      "inTheirLanguage": "lítill, lítil, lítið",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "great, a lot",
-      "inTheirLanguage": "mikill, mikil, mikið",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "old",
-      "inTheirLanguage": "gamall, gömul, gamalt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "alone",
-      "inTheirLanguage": "einsamall, einsömul, eisamalt",
-      "type": "adj"
-    },
-    {
-      "inOurLanguage": "Have a seat",
-      "inTheirLanguage": "Fáðu þér sæti",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Here is a plate and knife for you",
-      "inTheirLanguage": "Hér er diskur og hnífur handa þér",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Isn't there a glass missing? Yes, a glass is missing.",
-      "inTheirLanguage": "Vantar ekki glas? Jú, það vantar glas.",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Do you want milk or sugar?",
-      "inTheirLanguage": "Viltu mjólk eða sykur?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Here is some orange juice, if you'd like",
-      "inTheirLanguage": "Hér er svo appelsínusafi ef þú vilt",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Hangikjöt is smoked lamb",
-      "inTheirLanguage": "Hangikjöt er reykt lambakjöt",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "It is really good",
-      "inTheirLanguage": "Það er mjög gott, rosalega gott",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I went to the bakery this morning",
-      "inTheirLanguage": "Ég fór í bakarí í morgun",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "It's a bit like yogurt",
-      "inTheirLanguage": "Það er kannski svipað og jógúrt",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Is there more ...",
-      "inTheirLanguage": "Er til meira ...",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Can I offer you more ...",
-      "inTheirLanguage": "Má bjóða þér meira ...",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Yes, sure!",
-      "inTheirLanguage": "Já, endilega!",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "How long have you been in Iceland?",
-      "inTheirLanguage": "Hvað ertu búin(n) að vera lenga í Íslandi?",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "I am a regular guy",
-      "inTheirLanguage": "Ég er bara venjulegur strákur",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Reykjavik is a small and beautiful city",
-      "inTheirLanguage": "Reykjavik er lítil en falleg borg",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Iceland; in Iceland",
-      "inTheirLanguage": "Ísland; á Íslandi",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "United States; in the United States",
-      "inTheirLanguage": "Bandaríkin; í Bandaríkjunum",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Denmark; in Denmark",
-      "inTheirLanguage": "Danmörk; í Danmörku",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "in England",
-      "inTheirLanguage": "á Englandi",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "France; in France",
-      "inTheirLanguage": "Frakkland; í Frakklandi",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Faroe Islands; in the Faroe Islands",
-      "inTheirLanguage": "Færeyjar; í Færeyjum",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Canada; in Canada",
-      "inTheirLanguage": "Kanada; í Kanada",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Finland; in Finland",
-      "inTheirLanguage": "Finnland; í Finnlandi",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Norway; in Norway",
-      "inTheirLanguage": "í Noregi",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Russia; in Russia",
-      "inTheirLanguage": "Rússland; í Rússlandi",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Sweden; in Sweden",
-      "inTheirLanguage": "Svíþjóð; í Svíþjóð",
-      "type": ""
-    },
-    {
-      "inOurLanguage": "Germany; in Germany",
-      "inTheirLanguage": "Þýskaland; í Þýskalandi",
-      "type": ""
+  "sections": [
+    {
+      "title": "kveðjur",
+      "words": [
+        {
+          "inOurLanguage": "much, very",
+          "inTheirLanguage": "mjög",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "everything",
+          "inTheirLanguage": "allt",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "United States",
+          "inTheirLanguage": "Bandaríkin",
+          "type": "n n pl def"
+        },
+        {
+          "inOurLanguage": "only, just",
+          "inTheirLanguage": "bara",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "bye",
+          "inTheirLanguage": "bless",
+          "type": "interj"
+        },
+        {
+          "inOurLanguage": "hi!",
+          "inTheirLanguage": "blessaður (blessuð)",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "to start",
+          "inTheirLanguage": "byrja, -aði, -að(ur)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "not; don't",
+          "inTheirLanguage": "ekki",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "but",
+          "inTheirLanguage": "en",
+          "type": "conj"
+        },
+        {
+          "inOurLanguage": "I; we",
+          "inTheirLanguage": "ég, mig, mér, mín; við, okkur, okkur, okkar",
+          "type": "pron"
+        },
+        {
+          "inOurLanguage": "to go",
+          "inTheirLanguage": "fara, fer, fór, fórum, farinn (-ið)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "from",
+          "inTheirLanguage": "frá",
+          "type": "prep +dat"
+        },
+        {
+          "inOurLanguage": "amazing, brilliant, superb",
+          "inTheirLanguage": "frábær (-, -t)",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "fun",
+          "inTheirLanguage": "gaman, (-ni), -ans",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "to go",
+          "inTheirLanguage": "ganga (gá) geng, gekk, gengum, genginn (-iö)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "good",
+          "inTheirLanguage": "gódur, gód, gott",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "here",
+          "inTheirLanguage": "hér",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "who, what",
+          "inTheirLanguage": "hver, hver, hvert; hvaö",
+          "type": "pron"
+        },
+        {
+          "inOurLanguage": "where from",
+          "inTheirLanguage": "hvaðan",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "how",
+          "inTheirLanguage": "hvernig",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "yes",
+          "inTheirLanguage": "já",
+          "type": "interj"
+        },
+        {
+          "inOurLanguage": "maybe",
+          "inTheirLanguage": "kannski",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "to teach",
+          "inTheirLanguage": "kenna, kenndi, kenndur (kennt)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "teacher",
+          "inTheirLanguage": "kennari, -a, -ar",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "introduce, make known",
+          "inTheirLanguage": "kynna, kynnti, kynnt(ur)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "get acquainted with, meet",
+          "inTheirLanguage": "að kynnast",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "actor",
+          "inTheirLanguage": "leikari, -a, -ar",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "also",
+          "inTheirLanguage": "líka",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "to study, learn",
+          "inTheirLanguage": "læra, lærði, lærður (lært)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "studies, learning",
+          "inTheirLanguage": "nám, -s, -",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "student",
+          "inTheirLanguage": "nemandi, -a, -endur",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "history",
+          "inTheirLanguage": "sagnfræði, -s, -",
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "to say",
+          "inTheirLanguage": "segja, sagði, sagður (sagt)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "later",
+          "inTheirLanguage": "seinna",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "to see",
+          "inTheirLanguage": "sjá, sé, sá, sáum, séð(ur)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "see you!",
+          "inTheirLanguage": "sjáumst!",
+          "type": "v st-form"
+        },
+        {
+          "inOurLanguage": "hi! (be) well!",
+          "inTheirLanguage": "sæll, sæl, sælt; sælir, sælar, sælul",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "likewise",
+          "inTheirLanguage": "sömuleiðis",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "time; class",
+          "inTheirLanguage": "tími, -a, -ar",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "to be",
+          "inTheirLanguage": "vera; er, ert; var; vorum, vórum; verið",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "I; we",
+          "inTheirLanguage": "ég, mig, mér, mín; við, okkur, okkur, okkar",
+          "type": "pron"
+        },
+        {
+          "inOurLanguage": "you",
+          "inTheirLanguage": "þú, þig, þér, þín; þið, ykkur, ykkur, ykkar",
+          "type": "pron"
+        },
+        {
+          "inOurLanguage": "he, him, his",
+          "inTheirLanguage": "hann, hann, honum, hans; þeir, þá, þeim, þeirra",
+          "type": "pron"
+        },
+        {
+          "inOurLanguage": "she, her",
+          "inTheirLanguage": "hún, hana, henni, hennar; þær, þær, þeim, þeirra",
+          "type": "pron"
+        },
+        {
+          "inOurLanguage": "it, its",
+          "inTheirLanguage": "það, það, því, þess; þau, þau, þeim, þeirra",
+          "type": "pron"
+        },
+        {
+          "inOurLanguage": "How are you doing?",
+          "inTheirLanguage": "Hvað segirðu gott?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "What's up?",
+          "inTheirLanguage": "Hvað er að frétta?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Just fine",
+          "inTheirLanguage": "Allt gott; allt ágætt",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Nothing special",
+          "inTheirLanguage": "Ekkert sérstakt",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Sorry",
+          "inTheirLanguage": "Fyrirgefðu, fyrirgefði",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Excuse me",
+          "inTheirLanguage": "Afsakaðu, afsakið",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Thanks",
+          "inTheirLanguage": "Takk",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Thanks (for the food)",
+          "inTheirLanguage": "Þakka þér/ykkur fyrir",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Ok, no problem",
+          "inTheirLanguage": "Allt í lagi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "No problem!",
+          "inTheirLanguage": "Ekkert mál",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I am called (for first names)",
+          "inTheirLanguage": "Ég heiti ...",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I'm called (for nicknames)",
+          "inTheirLanguage": "Ég er kallaður, kölluð",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "This is ...",
+          "inTheirLanguage": "Þetta er ...",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Bye bye!",
+          "inTheirLanguage": "Bless bless!",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I'll hear from you!",
+          "inTheirLanguage": "Heyrumst!",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Goodbye!",
+          "inTheirLanguage": "Vertu sæll, sæl",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Good day",
+          "inTheirLanguage": "Góðan dag, góðan daginn",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Good evening",
+          "inTheirLanguage": "Gott kvöld, góða kvöldið",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "My name is Hrafnhildur. What is your name?",
+          "inTheirLanguage": "Ég heiti Hrafnhildur. Hvað heitir þú?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Are you a student here?",
+          "inTheirLanguage": "Ertu nemandi hér?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I am learning Icelandic",
+          "inTheirLanguage": "Ég er að læra íslensku",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I am not a student",
+          "inTheirLanguage": "Ég er ekki nemandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I teach history",
+          "inTheirLanguage": "Ég kenni sagnfrædi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "The class is starting",
+          "inTheirLanguage": "Tíminn er að byrja",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I have to go",
+          "inTheirLanguage": "Ég verð að fara",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "How are your studies going?",
+          "inTheirLanguage": "Hvernig gengur námið?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "This is my husband; my wife",
+          "inTheirLanguage": "Þetta er maðurinn minn; konan mín",
+          "type": ""
+        }
+      ]
     },
 
-
-
-
-
+    {
+      "title": "talarðu íslensku",
+      "words": [
+        {
+          "inOurLanguage": "still",
+          "inTheirLanguage": "enn",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "French (language)",
+          "inTheirLanguage": "franska",
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "to do",
+          "inTheirLanguage": "gera, gerði, gerður (gert)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "university",
+          "inTheirLanguage": "háskóli",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "how",
+          "inTheirLanguage": "hvernig",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "together",
+          "inTheirLanguage": "saman",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "a bit",
+          "inTheirLanguage": "smá",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "so",
+          "inTheirLanguage": "svo",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "to speak, talk",
+          "inTheirLanguage": "tala, -aði, -að",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "Really!?",
+          "inTheirLanguage": "Hvað ertu að segja!",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Huh, what did you say?",
+          "inTheirLanguage": "Ha, hvað segirðu?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Excuse me, what did you say?",
+          "inTheirLanguage": "Fyrirgefðu, hvað segirðu?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Sorry, I don't understand you",
+          "inTheirLanguage": "Fyrirgefðu, ég skil þig ekki",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Can you speak (a bit) slower?",
+          "inTheirLanguage": "Geturðu talað (aðeins) hægar?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "You speak too quickly for me",
+          "inTheirLanguage": "Þú talar of hratt fyrir mig",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Could you explain this again?",
+          "inTheirLanguage": "Geturðu útskýrt þetta aftur?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "That's great!",
+          "inTheirLanguage": "En frábært!",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "That's fun!",
+          "inTheirLanguage": "En skemmtilegt!",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "That's (too) bad!",
+          "inTheirLanguage": "En leiðinlegt!",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "You talk way too much",
+          "inTheirLanguage": "Þú talar alltof mikið",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Hrafnhildur is speaking",
+          "inTheirLanguage": "Hrafinhildur er að tala",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I don't understand what you are saying",
+          "inTheirLanguage": "Ég skill ekki hvað þú ert að segja",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Great to meet you",
+          "inTheirLanguage": "Gaman að kynnast þér, ykkur",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "We could speak together in French!",
+          "inTheirLanguage": "Við getum þá talað saman á frönsku!",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I don't speak so well",
+          "inTheirLanguage": "Ég tala ekki svo vel",
+          "type": ""
+        }
+      ]
+    },
 
     {
-      "inOurLanguage": "shoulder (n)",
-      "inTheirLanguage": "öxl, axlar, -ir",
-      "type": "n f"
+      "title": "morgunmatur",
+      "words": [
+        {
+          "inOurLanguage": "totally",
+          "inTheirLanguage": "alveg",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "orange juice",
+          "inTheirLanguage": "appelsínusafi",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "seconds, second helping",
+          "inTheirLanguage": "ábót",
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "fine",
+          "inTheirLanguage": "ágætt",
+          "type": "adj n"
+        },
+        {
+          "inOurLanguage": "things to put on bread",
+          "inTheirLanguage": "álegg",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "to invite; to offer",
+          "inTheirLanguage": "bjóða, býð, bauð, buðum, boðinn (-ið)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "bread",
+          "inTheirLanguage": "brauð",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "plate, dish",
+          "inTheirLanguage": "diskur",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "if",
+          "inTheirLanguage": "ef",
+          "type": "conj"
+        },
+        {
+          "inOurLanguage": "to go",
+          "inTheirLanguage": "fara, fer, fór, fórum, farinn (-ið)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "drinking glass",
+          "inTheirLanguage": "glas",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "smoked lamb",
+          "inTheirLanguage": "hangikjöt",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "a knife",
+          "inTheirLanguage": "knífur",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "yogurt",
+          "inTheirLanguage": "jógúrt",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "coffee",
+          "inTheirLanguage": "kaffi",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "lamb meat",
+          "inTheirLanguage": "lambakjöt",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "more",
+          "inTheirLanguage": "meira",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "milk",
+          "inTheirLanguage": "mjólk",
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "breakfast",
+          "inTheirLanguage": "morgunmatur",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "new",
+          "inTheirLanguage": "nýr, ný, nýtt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "cheese",
+          "inTheirLanguage": "ostur",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "to smoke",
+          "inTheirLanguage": "reykja, reykti, reykt(ur)",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "dish",
+          "inTheirLanguage": "réttur",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "full",
+          "inTheirLanguage": "saddur",
+          "type": "m"
+        },
+        {
+          "inOurLanguage": "particularly Icelandic",
+          "inTheirLanguage": "séríslenskur, -, -t",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "very",
+          "inTheirLanguage": "rosalega",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "skyr",
+          "inTheirLanguage": "skyr",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "to taste",
+          "inTheirLanguage": "smakka, -, -ði, -ð",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "tasteless, tacky",
+          "inTheirLanguage": "smekklaus, -laus, -laust",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "man with good taste",
+          "inTheirLanguage": "smekkmaður",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "butter",
+          "inTheirLanguage": "smjör",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "sugar",
+          "inTheirLanguage": "sykur",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "sugar-free",
+          "inTheirLanguage": "sykurlaus, -laus, -laust",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "Have a seat",
+          "inTheirLanguage": "Fáðu þér sæti",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Here is a plate and knife for you",
+          "inTheirLanguage": "Hér er diskur og hnífur handa þér",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Isn't there a glass missing? Yes, a glass is missing.",
+          "inTheirLanguage": "Vantar ekki glas? Jú, það vantar glas.",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Do you want milk or sugar?",
+          "inTheirLanguage": "Viltu mjólk eða sykur?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Here is some orange juice, if you'd like",
+          "inTheirLanguage": "Hér er svo appelsínusafi ef þú vilt",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Hangikjöt is smoked lamb",
+          "inTheirLanguage": "Hangikjöt er reykt lambakjöt",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "It is really good",
+          "inTheirLanguage": "Það er mjög gott, rosalega gott",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I went to the bakery this morning",
+          "inTheirLanguage": "Ég fór í bakarí í morgun",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "It's a bit like yogurt",
+          "inTheirLanguage": "Það er kannski svipað og jógúrt",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Is there more ...",
+          "inTheirLanguage": "Er til meira ...",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Can I offer you more ...",
+          "inTheirLanguage": "Má bjóða þér meira ...",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Yes, sure!",
+          "inTheirLanguage": "Já, endilega!",
+          "type": ""
+        }
+      ]
+    },
+
+    {
+      "title": "lýsingarorð",
+      "words": [
+        {
+          "inOurLanguage": "white",
+          "inTheirLanguage": "hvítur, hvít, hvítt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "black",
+          "inTheirLanguage": "svartur, svört, svart",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "red",
+          "inTheirLanguage": "rauður, rauð, rautt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "yellow",
+          "inTheirLanguage": "gulur, gul, gult",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "orange (color)",
+          "inTheirLanguage": "appelsínungulur, -gul, -gult",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "pink",
+          "inTheirLanguage": "bleikur, bleik, bleikt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "blue",
+          "inTheirLanguage": "blár, blá, blátt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "purple",
+          "inTheirLanguage": "fjólublár, fjólublá, fjólublátt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "gray",
+          "inTheirLanguage": "grár, grá, grátt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "brown",
+          "inTheirLanguage": "brúnn, brún, brúnt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "green",
+          "inTheirLanguage": "grænn, græn, grænt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "Icelandic",
+          "inTheirLanguage": "íslenskur, -, -t",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "boring",
+          "inTheirLanguage": "leiðinlegur, leiðinleg, leiðinlegt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "hungry",
+          "inTheirLanguage": "svangur, svöng, svangt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "lazy",
+          "inTheirLanguage": "latur, löt, latt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "happy",
+          "inTheirLanguage": "hamingjusam, hamingjusöm, hamingjusamt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "cold",
+          "inTheirLanguage": "kaldur, köld, kalt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "darkhaired",
+          "inTheirLanguage": "dökkhærður, dökkhærð, dökkhært",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "big",
+          "inTheirLanguage": "stór, stór, stórt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "clear",
+          "inTheirLanguage": "skýr, skýr, skýrt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "polite",
+          "inTheirLanguage": "kurteis, kurteis, kurteist",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "healthy, in good spirits",
+          "inTheirLanguage": "hress, hress, hresst",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "warm",
+          "inTheirLanguage": "hlýr, hlý, hlýtt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "high",
+          "inTheirLanguage": "hár, há, hátt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "shy",
+          "inTheirLanguage": "feiminn, feimin, feimið",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "in love",
+          "inTheirLanguage": "ástfanginn, ástfangin, ástfangið",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "little",
+          "inTheirLanguage": "lítill, lítil, lítið",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "great, a lot",
+          "inTheirLanguage": "mikill, mikil, mikið",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "old",
+          "inTheirLanguage": "gamall, gömul, gamalt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "alone",
+          "inTheirLanguage": "einsamall, einsömul, eisamalt",
+          "type": "adj"
+        }
+      ]
+    },
+
+    {
+      "title": "hver ert þú",
+      "words": [
+        {
+          "inOurLanguage": "How long have you been in Iceland?",
+          "inTheirLanguage": "Hvað ertu búin(n) að vera lenga í Íslandi?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I am a regular guy",
+          "inTheirLanguage": "Ég er bara venjulegur strákur",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Reykjavik is a small and beautiful city",
+          "inTheirLanguage": "Reykjavik er lítil en falleg borg",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Iceland; in Iceland",
+          "inTheirLanguage": "Ísland; á Íslandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "United States; in the United States",
+          "inTheirLanguage": "Bandaríkin; í Bandaríkjunum",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Denmark; in Denmark",
+          "inTheirLanguage": "Danmörk; í Danmörku",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "in England",
+          "inTheirLanguage": "á Englandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "France; in France",
+          "inTheirLanguage": "Frakkland; í Frakklandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Faroe Islands; in the Faroe Islands",
+          "inTheirLanguage": "Færeyjar; í Færeyjum",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Canada; in Canada",
+          "inTheirLanguage": "Kanada; í Kanada",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Finland; in Finland",
+          "inTheirLanguage": "Finnland; í Finnlandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Norway; in Norway",
+          "inTheirLanguage": "í Noregi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Russia; in Russia",
+          "inTheirLanguage": "Rússland; í Rússlandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Sweden; in Sweden",
+          "inTheirLanguage": "Svíþjóð; í Svíþjóð",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Germany; in Germany",
+          "inTheirLanguage": "Þýskaland; í Þýskalandi",
+          "type": ""
+        }
+      ]
     }
   ]
 }
