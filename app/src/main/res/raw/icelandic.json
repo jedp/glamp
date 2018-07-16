@@ -74,7 +74,7 @@
           "type": "adj"
         },
         {
-          "inOurLanguage": "to go",
+          "inOurLanguage": "to walk, go",
           "inTheirLanguage": "ganga (gá) geng, gekk, gengum, genginn (-iö)",
           "type": "v"
         },
@@ -90,7 +90,7 @@
         },
         {
           "inOurLanguage": "who, what",
-          "inTheirLanguage": "hver, hver, hvert; hvaö",
+          "inTheirLanguage": "hver, hver, hvert; hvað",
           "type": "pron"
         },
         {
@@ -214,17 +214,17 @@
           "type": "pron"
         },
         {
-          "inOurLanguage": "he, him, his",
+          "inOurLanguage": "he, him, his; their",
           "inTheirLanguage": "hann, hann, honum, hans; þeir, þá, þeim, þeirra",
           "type": "pron"
         },
         {
-          "inOurLanguage": "she, her",
+          "inOurLanguage": "she, her; their",
           "inTheirLanguage": "hún, hana, henni, hennar; þær, þær, þeim, þeirra",
           "type": "pron"
         },
         {
-          "inOurLanguage": "it, its",
+          "inOurLanguage": "it, its; their",
           "inTheirLanguage": "það, það, því, þess; þau, þau, þeim, þeirra",
           "type": "pron"
         },
@@ -269,13 +269,8 @@
           "type": ""
         },
         {
-          "inOurLanguage": "Ok, no problem",
-          "inTheirLanguage": "Allt í lagi",
-          "type": ""
-        },
-        {
-          "inOurLanguage": "No problem!",
-          "inTheirLanguage": "Ekkert mál",
+          "inOurLanguage": "No problem",
+          "inTheirLanguage": "Allt í lagi; ekkert mál",
           "type": ""
         },
         {
@@ -415,7 +410,7 @@
           "type": "v"
         },
         {
-          "inOurLanguage": "Really!?",
+          "inOurLanguage": "What are you saying!",
           "inTheirLanguage": "Hvað ertu að segja!",
           "type": ""
         },
@@ -627,7 +622,7 @@
         },
         {
           "inOurLanguage": "very",
-          "inTheirLanguage": "rosalega",
+          "inTheirLanguage": "rosalega; mjög",
           "type": "adv"
         },
         {
@@ -753,7 +748,7 @@
         },
         {
           "inOurLanguage": "orange (color)",
-          "inTheirLanguage": "appelsínungulur, -gul, -gult",
+          "inTheirLanguage": "appelsínugulur, -gul, -gult",
           "type": "adj"
         },
         {
