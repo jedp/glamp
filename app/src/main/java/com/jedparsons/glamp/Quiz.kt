@@ -20,9 +20,9 @@ data class Card(
   }
 
   /** Peek at the translation. */
-  fun peek(): String {
+  fun peek(): Word {
     peeks++
-    return word.inTheirLanguage
+    return word
   }
 
   /** Simple measure of how familiar someone is with the word. */
@@ -61,7 +61,7 @@ class Deck(
    */
   fun reshuffle() {
     val card = cards.pop()
-    val newIndex = min(5 + card.familiarity() * (random.nextInt(17) + 1), cards.size - 1)
+    val newIndex = min(5 + card.familiarity() * (random.nextInt(17) + 1), cards.size)
     cards.add(newIndex, card)
     nextCard()
   }

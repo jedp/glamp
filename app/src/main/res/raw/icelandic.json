@@ -714,11 +714,319 @@
           "inOurLanguage": "Can I offer you more ...",
           "inTheirLanguage": "Má bjóða þér meira ...",
           "type": ""
+
         },
         {
           "inOurLanguage": "Yes, sure!",
           "inTheirLanguage": "Já, endilega!",
           "type": ""
+        }
+      ]
+    },
+
+    {
+      "title": "sagnir",
+      "words": [
+        {
+          "inOurLanguage": "to burst",
+          "inTheirLanguage": "bresta, brest, brast, brustum, brostinn",
+          "columns": [
+            [
+              "brest",
+              "brestur",
+              "brest",
+              "brestum",
+              "brestið",
+              "bresta",
+              "",
+              "brestandi"
+            ],
+            [
+              "brast",
+              "brast",
+              "brast",
+              "brustum",
+              "brustuð",
+              "brustu",
+              "",
+              "brestinn"
+            ]
+          ],
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to bear, carry; wear",
+          "inTheirLanguage": "bera, ber, bar, bórum, borinn",
+          "columns": [
+            [
+              "ber",
+              "berð",
+              "ber",
+              "beri",
+              "berir",
+              "beri",
+              "",
+              "berandi"
+            ],
+            [
+              "bar",
+              "barst",
+              "bar",
+              "bárum",
+              "báruð",
+              "báru",
+              "",
+              "borinn"
+            ]
+          ],
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to catch, hold; buy; take (time)",
+          "inTheirLanguage": "taka, tek, tók, tókum, tekinn",
+          "columns": [
+            [
+              "tek",
+              "tekur",
+              "tekur",
+              "tökum",
+              "takið",
+              "taka",
+              "",
+              "takandi"
+            ],
+            [
+              "tók",
+              "tókast",
+              "tók",
+              "tókum",
+              "tókuð",
+              "tóku",
+              "",
+              "tekinn"
+            ]
+          ],
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to choose, select",
+          "inTheirLanguage": "kjósa, kýs, kaus, kusum, kosinn",
+          "columns": [
+            [
+              "kýs",
+              "kýst",
+              "kýs",
+              "kjósum",
+              "kjósid",
+              "kjósa",
+              "",
+              "kjósandi"
+            ],
+            [
+              "kaus",
+              "kaust",
+              "kaus",
+              "kusum",
+              "kusuð",
+              "kusu",
+              "",
+              "kosinn"
+            ]
+          ],
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to shine, gleam",
+          "inTheirLanguage": "skína, skín, skein, skínum, skininn",
+          "columns": [
+            [
+              "skín",
+              "skín",
+              "skín",
+              "skínum",
+              "skínið",
+              "skína",
+              "",
+              "skínandi"
+            ],
+            [
+              "skein",
+              "skeinst",
+              "skein",
+              "skinum",
+              "skinuð",
+              "skinu",
+              "",
+              "skininn"
+            ]
+          ],
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to have (aux)",
+          "inTheirLanguage": "hafa; hef, hefi; hafði, hafður",
+          "columns": [
+            [
+              "hef",
+              "hefur",
+              "hefur",
+              "höfum",
+              "hafið",
+              "hafa",
+              "",
+              ""
+            ],
+            [
+              "hafði",
+              "hafðir",
+              "hafði",
+              "höfðum",
+              "höfðuð",
+              "höfðu",
+              "",
+              ""
+            ]
+          ],
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to be (aux)",
+          "inTheirLanguage": "vera; er, ert; var; vorum, vórum; verið",
+          "columns": [
+            [
+              "er",
+              "ert",
+              "er",
+              "erum",
+              "eruð",
+              "eru",
+              "",
+              ""
+            ],
+            [
+              "var",
+              "varst",
+              "var",
+              "vorum",
+              "voruð",
+              "voru",
+              "",
+              ""
+            ]
+          ],
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to give",
+          "inTheirLanguage": "gefa, gef, gaf, gáfum, gefinn (-ið)",
+          "columns": [
+            [
+              "gef",
+              "gefur",
+              "gefur",
+              "gefum",
+              "gefið",
+              "gefa",
+              "",
+              "gefandi"
+            ],
+            [
+              "gaf",
+              "gafst",
+              "gaf",
+              "gáfum",
+              "gáfuð",
+              "gáfu",
+              "",
+              "gefinn"
+            ]
+          ],
+          "type": "v"
+        }
+      ]
+    },
+
+    {
+      "title": "fornöfn",
+      "words": [
+        {
+          "inOurLanguage": "I, me",
+          "inTheirLanguage": "ég",
+          "columns": [
+            [
+              "ég",
+              "mig",
+              "mér",
+              "mín"
+            ],
+            [
+              "við",
+              "okkur",
+              "okkur",
+              "okkar"
+            ]
+          ],
+          "type": "pron"
+        },
+        {
+          "inOurLanguage": "You",
+          "inTheirLanguage": "þú",
+          "columns": [
+            [
+              "þú",
+              "þig",
+              "þér",
+              "þín"
+            ],
+            [
+              "þið",
+              "ykkur",
+              "ykkur",
+              "ykkar"
+            ]
+          ],
+          "type": "pron"
+        },
+
+        {
+          "inOurLanguage": "He, she, it",
+          "inTheirLanguage": "hann, hún, það",
+          "columns": [
+            [
+              "hann",
+              "hann",
+              "honum",
+              "hans",
+              "",
+              "their",
+              "thá",
+              "þeim",
+              "þeirra"
+            ],
+            [
+              "hún",
+              "hana",
+              "henni",
+              "hennar",
+              "",
+              "þær",
+              "þær",
+              "þeim",
+              "þeirra"
+            ],
+            [
+              "það",
+              "það",
+              "því",
+              "þess",
+              "þau",
+              "",
+              "þau",
+              "þeim",
+              "þeirra"
+            ]
+          ],
+          "type": "pron"
         }
       ]
     },
@@ -873,7 +1181,7 @@
         },
         {
           "inOurLanguage": "alone",
-          "inTheirLanguage": "einsamall, einsömul, eisamalt",
+          "inTheirLanguage": "einsamall, -sömul, -samalt",
           "type": "adj"
         }
       ]

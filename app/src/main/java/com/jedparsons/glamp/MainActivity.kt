@@ -1,18 +1,20 @@
 package com.jedparsons.glamp
 
 import android.os.Bundle
-import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
-import android.util.TypedValue
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View.GONE
+import android.view.View.VISIBLE
 import android.widget.TextView
 import com.jedparsons.glamp.GestureListener.Companion.gestureListener
 import kotlinx.android.synthetic.main.activity_main.toolbar
-import kotlinx.android.synthetic.main.activity_main.word_in_their_language
-import kotlinx.android.synthetic.main.content_main.flash_card_content
+import kotlinx.android.synthetic.main.content_main.back_of_card
+import kotlinx.android.synthetic.main.content_main.back_of_card_contents
+import kotlinx.android.synthetic.main.content_main.columns
+import kotlinx.android.synthetic.main.content_main.front_of_card
 import kotlinx.android.synthetic.main.content_main.premise_and_conclusion
-import kotlinx.android.synthetic.main.content_main.word_in_our_language
+import kotlinx.android.synthetic.main.content_main.summary
 import timber.log.Timber
 import timber.log.Timber.DebugTree
 
@@ -53,23 +55,28 @@ class MainActivity : AppCompatActivity() {
 
   private fun chooseDeck(deck: Deck) {
     deck.cards()
-        .subscribe { word -> word_in_our_language.text = word }
+        .subscribe { word ->
+          back_of_card_contents.visibility = GONE
+          front_of_card.text = word
+        }
 
-    gestureListener(flash_card_content)
+    gestureListener(front_of_card)
         .onFling()
         .subscribe { deck.reshuffle() }
 
-    word_in_their_language
-        .setOnClickListener { view ->
-          val snackbar = Snackbar.make(view, deck.peek(), Snackbar.LENGTH_LONG)
-          snackbar.setText(deck.peek())
-          val snackbarTextView =
-            snackbar.view.findViewById(android.support.design.R.id.snackbar_text) as TextView
-          snackbarTextView.setTextSize(
-              TypedValue.COMPLEX_UNIT_PX,
-              resources.getDimension(R.dimen.snackbar_textsize)
-          )
-          snackbar.show()
+     back_of_card
+        .setOnClickListener {
+          back_of_card_contents.visibility = VISIBLE
+          val word = deck.peek()
+          summary.text = word.inTheirLanguage
+          (0 until 3).forEach { columns.getChildAt(it).visibility = GONE }
+          if (word.columns?.isNotEmpty() == true) {
+            (0 until word.columns.size).forEach { index ->
+              val column = columns.getChildAt(index) as TextView
+              column.text = word.columns[index].joinToString("\n")
+              column.visibility = VISIBLE
+            }
+          }
         }
   }
 
@@ -89,16 +96,9 @@ class MainActivity : AppCompatActivity() {
         .setListener(null)
 
     // The flash card word to translate.
-    word_in_our_language.animate()
+    front_of_card.animate()
         .alpha(1.0f - opacity)
         .setDuration(resources.getInteger(android.R.integer.config_mediumAnimTime).toLong())
         .setListener(null)
-
-    // The translation.
-    word_in_their_language.animate()
-        .alpha(1.0f - opacity)
-        .setDuration(resources.getInteger(android.R.integer.config_mediumAnimTime).toLong())
-        .setListener(null)
-
   }
 }
