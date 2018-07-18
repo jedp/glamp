@@ -14,15 +14,14 @@ data class Card(
   private var peeks: Int = 0
 ) {
   /** Show the word in the language you know. */
-  fun show(): String {
+  fun show(): Word {
     draws++
-    return word.inOurLanguage
+    return word
   }
 
   /** Peek at the translation. */
-  fun peek(): Word {
+  fun hadToPeek() {
     peeks++
-    return word
   }
 
   /** Simple measure of how familiar someone is with the word. */
@@ -48,13 +47,13 @@ class Deck(
 ) {
 
   private val random = Random()
-  private val observable: BehaviorSubject<String> = BehaviorSubject.create()
+  private val observable: BehaviorSubject<Word> = BehaviorSubject.create()
 
   init {
     nextCard()
   }
 
-  fun cards(): Observable<String> = observable
+  fun cards(): Observable<Word> = observable
 
   /**
    * Put the card back in the deck. The better you know the card, the farther back it goes.
@@ -66,7 +65,7 @@ class Deck(
     nextCard()
   }
 
-  fun peek() = cards.top().peek()
+  fun peek() = cards.top().hadToPeek()
 
   private fun nextCard() {
     observable.onNext(cards.top().show())

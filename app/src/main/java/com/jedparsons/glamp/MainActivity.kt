@@ -7,11 +7,13 @@ import android.view.MenuItem
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.widget.TextView
+import com.jedparsons.glamp.GestureEvents.Fling
+import com.jedparsons.glamp.GestureEvents.Tap
 import com.jedparsons.glamp.GestureListener.Companion.gestureListener
 import kotlinx.android.synthetic.main.activity_main.toolbar
 import kotlinx.android.synthetic.main.content_main.back_of_card
-import kotlinx.android.synthetic.main.content_main.back_of_card_contents
 import kotlinx.android.synthetic.main.content_main.columns
+import kotlinx.android.synthetic.main.content_main.flash_card_content
 import kotlinx.android.synthetic.main.content_main.front_of_card
 import kotlinx.android.synthetic.main.content_main.premise_and_conclusion
 import kotlinx.android.synthetic.main.content_main.summary
@@ -22,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
   private lateinit var box: Box
 
+  private var defaultVisibility = GONE
+
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
 
@@ -31,6 +35,7 @@ class MainActivity : AppCompatActivity() {
     setSupportActionBar(toolbar)
 
     box = Box.of(resources, R.raw.icelandic)
+    back_of_card.visibility = defaultVisibility
 
     showPremiseAndConclusion(true)
   }
@@ -44,6 +49,13 @@ class MainActivity : AppCompatActivity() {
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
     when (item.itemId) {
+      R.id.action_visibility -> {
+        defaultVisibility = when (defaultVisibility) {
+          GONE -> VISIBLE
+          else -> GONE
+        }
+        back_of_card.visibility = defaultVisibility
+      }
       R.id.this_is_iceland -> showPremiseAndConclusion(true)
       else -> {
         showPremiseAndConclusion(false)
@@ -55,29 +67,40 @@ class MainActivity : AppCompatActivity() {
 
   private fun chooseDeck(deck: Deck) {
     deck.cards()
-        .subscribe { word ->
-          back_of_card_contents.visibility = GONE
-          front_of_card.text = word
-        }
+        .subscribe(::displayNewWord)
 
-    gestureListener(front_of_card)
-        .onFling()
-        .subscribe { deck.reshuffle() }
-
-     back_of_card
-        .setOnClickListener {
-          back_of_card_contents.visibility = VISIBLE
-          val word = deck.peek()
-          summary.text = word.inTheirLanguage
-          (0 until 3).forEach { columns.getChildAt(it).visibility = GONE }
-          if (word.columns?.isNotEmpty() == true) {
-            (0 until word.columns.size).forEach { index ->
-              val column = columns.getChildAt(index) as TextView
-              column.text = word.columns[index].joinToString("\n")
-              column.visibility = VISIBLE
+    gestureListener(flash_card_content)
+        .events()
+        .subscribe {
+          when (it) {
+            is Fling -> deck.reshuffle()
+            is Tap -> {
+              deck.peek()
+              back_of_card.visibility = VISIBLE
             }
           }
         }
+  }
+
+  private fun displayNewWord(word: Word) {
+    front_of_card.text = word.inOurLanguage
+
+    back_of_card.visibility = defaultVisibility
+
+    summary.text = word.inTheirLanguage
+
+    // Hide the three text columns.
+    (0 until 3).forEach {
+      columns.getChildAt(it)
+          .visibility = GONE
+    }
+
+    // Fill the columns that should have text and show them.
+    (0 until word.columns.size).forEach { index ->
+      val column = columns.getChildAt(index) as TextView
+      column.text = word.columns[index].joinToString("\n")
+      column.visibility = VISIBLE
+    }
   }
 
   /**

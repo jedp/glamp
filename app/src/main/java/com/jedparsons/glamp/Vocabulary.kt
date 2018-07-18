@@ -9,7 +9,7 @@ import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 data class Word(
   val inOurLanguage: String,
   val inTheirLanguage: String,
-  val columns: List<List<String>>?,
+  val columns: List<List<String>> = emptyList(),
   val type: String
 )
 

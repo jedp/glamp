@@ -47,12 +47,6 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="@+id/guideline"
       >
-    <LinearLayout
-        android:id="@+id/back_of_card_contents"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
       <TextView
           android:id="@+id/summary"
           android:layout_width="match_parent"
@@ -117,7 +111,6 @@
         </LinearLayout>
       </android.support.constraint.ConstraintLayout>
     </LinearLayout>
-  </LinearLayout>
 
   <ImageView
       android:id="@+id/premise_and_conclusion"

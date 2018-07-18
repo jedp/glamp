@@ -4,13 +4,20 @@ import android.view.GestureDetector
 import android.view.GestureDetector.OnGestureListener
 import android.view.MotionEvent
 import android.view.View
+import com.jedparsons.glamp.GestureEvents.Fling
+import com.jedparsons.glamp.GestureEvents.Tap
 import io.reactivex.subjects.PublishSubject
 
 const val MIN_SWIPE_DISTANCE_PX = 150
 
+sealed class GestureEvents {
+  object Fling : GestureEvents()
+  object Tap : GestureEvents()
+}
+
 class GestureListener : OnGestureListener {
 
-  private val observable: PublishSubject<Unit> = PublishSubject.create()
+  private val events: PublishSubject<GestureEvents> = PublishSubject.create()
 
   companion object {
 
@@ -31,7 +38,7 @@ class GestureListener : OnGestureListener {
   /**
    * [PublishSubject] for fling events.
    */
-  fun onFling() = observable
+  fun events() = events
 
   override fun onFling(
     startEvent: MotionEvent,
@@ -44,14 +51,17 @@ class GestureListener : OnGestureListener {
         (startEvent.y - endEvent.y) * (startEvent.y - endEvent.y) >
         MIN_SWIPE_DISTANCE_PX * MIN_SWIPE_DISTANCE_PX
     ) {
-      observable.onNext(Unit)
+      events.onNext(Fling)
     }
     return true
   }
 
-  override fun onShowPress(motionEvent: MotionEvent) {}
+  override fun onSingleTapUp(motionEvent: MotionEvent): Boolean {
+    events.onNext(Tap)
+    return true
+  }
 
-  override fun onSingleTapUp(motionEvent: MotionEvent) = true
+  override fun onShowPress(motionEvent: MotionEvent) {}
 
   override fun onDown(motionEvent: MotionEvent) = true
 
