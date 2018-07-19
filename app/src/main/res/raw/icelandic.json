@@ -725,6 +725,641 @@
     },
 
     {
+      "title": "nafnorð",
+      "words": [
+        {
+          "inOurLanguage": "horse",
+          "inTheirLanguage": "hestur, -s, -ar",
+          "columns": [
+            ["hestur", "hest", "hesti", "hests"],
+            ["hestar", "hesta", "hestum", "hesta"]
+          ],
+          "type": "n"
+        },
+        {
+          "inOurLanguage": "hat",
+          "inTheirLanguage": "hattur, -s, -ar",
+          "columns": [
+            ["hattur", "hatt", "hatti", "hatts"],
+            ["hattar", "hatta", "höttum", "hatta"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "peat",
+          "inTheirLanguage": "mór, mós, móar",
+          "columns": [
+            ["mór", "mó", "mó", "mós"],
+            ["móar", "móa", "móum", "móa"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "geyser",
+          "inTheirLanguage": "hver, -s, -ar",
+          "columns": [
+            ["hver", "hver", "hver", "hvers"],
+            ["hverar", "hvera", "hverum", "hvera"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "field",
+          "inTheirLanguage": "akur, -urs, -rar",
+          "columns": [
+            ["akur", "akur", "akri", "akurs"],
+            ["akrar", "akra", "ökrum", "akra"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "chair",
+          "inTheirLanguage": "stóll, -s, -ar",
+          "columns": [
+            ["stóll", "stól", "stóli", "stóls"],
+            ["stólar", "stóla", "stólum", "stóla"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "heaven",
+          "inTheirLanguage": "himinn, -s, -ar",
+          "columns": [
+            ["himinn", "himin", "himini", "himins"],
+            ["himnar", "himna", "himnum", "himna"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "doctor",
+          "inTheirLanguage": "læknir, -s, -ar",
+          "columns": [
+            ["læknir", "lækni", "lækni", "læknis"],
+            ["læknar", "lækna", "læknum", "lækna"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "song",
+          "inTheirLanguage": "söngur, -s, -ar",
+          "columns": [
+            ["söngur", "söng", "söng(vi)", "söngs"],
+            ["söngvar", "söngva", "söngvum", "söngva"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "smith",
+          "inTheirLanguage": "smiður, -s, -ir",
+          "columns": [
+            ["smiður", "smið", "smið", "smiðs"],
+            ["smiðir", "smiði", "smiðum", "smiða"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "valley",
+          "inTheirLanguage": "dalur, -s, -ir",
+          "columns": [
+            ["dalur", "dal", "dal", "dals"],
+            ["dalir", "dali", "dölum", "dala"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "play",
+          "inTheirLanguage": "leikur, -s, -ir",
+          "columns": [
+            ["leikur", "leik", "leik", "leiks"],
+            ["leikir", "leiki", "leikjum", "leikja"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "wall",
+          "inTheirLanguage": "veggur, -jar, -ir",
+          "columns": [
+            ["veggur", "vegg", "vegg", "veggjar"],
+            ["veggir", "veggi", "veggjum", "veggja"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "thing",
+          "inTheirLanguage": "hlutur, -ar, -ir",
+          "columns": [
+            ["hlutur", "hlut", "hlut", "hlutar"],
+            ["hlutir", "hluti", "hlutum", "hluta"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "place",
+          "inTheirLanguage": "staður, -ar, -ir",
+          "columns": [
+            ["staður", "stað", "stað", "staðar"],
+            ["staðir", "staði", "stöðum", "staða"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "clothing",
+          "inTheirLanguage": "fatnaður, -ar, -ir",
+          "columns": [
+            ["fatnaður", "fatnað", "fatnaði", "fatnaðar"],
+            ["fatnaðir", "fatnaði", "fötnuðum", "fatnaða"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "congregation",
+          "inTheirLanguage": "söfnuður, -naðar, -nuðir",
+          "columns": [
+            ["söfnuður", "söfnuð", "söfnuði", "söfnaðar"],
+            ["söfnuðir", "söfnuði", "söfnuðum", "söfnaða"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "cat",
+          "inTheirLanguage": "köttur, kattar, kettir",
+          "columns": [
+            ["köttur", "kött", "ketti", "kattar"],
+            ["kettir", "ketti", "köttum", "katta"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "fjord",
+          "inTheirLanguage": "fjörður, fjarðar, firðir",
+          "columns": [
+            ["fjörður", "fjörð", "firði", "fjarðar"],
+            ["firðir", "firði", "fjörðum", "fjarða"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "spoon",
+          "inTheirLanguage": "spónn, spæni, spóns, spænir",
+          "columns": [
+            ["spónn", "spón", "spæni", "spóns"],
+            ["spænir", "spæni", "spónum", "spóna"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "son",
+          "inTheirLanguage": "sonur, -ar, synir",
+          "columns": [
+            ["sonur", "son", "syni", "sonar"],
+            ["synir", "syni", "sonum", "sona"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "father",
+          "inTheirLanguage": "faðir, föður, feðir",
+          "columns": [
+            ["faðir", "föður", "föður", "föður(s)"],
+            ["feður", "feður", "feðrum", "feðra"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "brother",
+          "inTheirLanguage": "bróðir, bróður, bræður",
+          "columns": [
+            ["bróðir", "bróður", "bróður", "bróður(s)"],
+            ["bræður", "bræður", "bræðrum", "bræöra"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "foot",
+          "inTheirLanguage": "fótur, -ar, fætur",
+          "columns": [
+            ["fótur", "fót", "fæti", "fótar"],
+            ["fætur", "fætur", "fótum", "fóta"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "finger",
+          "inTheirLanguage": "fingur, -ur, -ra",
+          "columns": [
+            ["fingur", "fingur", "fingri", "fingurs"],
+            ["fingur", "fingur", "fingrum", "fingra"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "winter",
+          "inTheirLanguage": "vetur, -rar, -ur",
+          "columns": [
+            ["vetur", "vetur", "vetri", "vetrar"],
+            ["vetur", "vetur", "vetrum", "vetra"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "man",
+          "inTheirLanguage": "maður, menn(ir), manna",
+          "columns": [
+            ["maður", "mann", "manni", "manns"],
+            ["menn(ir)", "menn", "mönnum", "manna"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "cheek",
+          "inTheirLanguage": "kínn, -ar, -ar",
+          "columns": [
+            ["kínn", "kínn", "kínn", "kínnar"],
+            ["kínnar", "kínnar", "kínnum", "kínna"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "old woman",
+          "inTheirLanguage": "kerling, -ar, -ar",
+          "columns": [
+            ["kerling", "kerlingu", "kerlingu", "kerlingar"],
+            ["kerlingar", "kerlingar", "kerlingum", "kerlinga"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "liver",
+          "inTheirLanguage": "lifur, -rar, -rar",
+          "columns": [
+            ["lifur", "lifur", "lifur", "lifrar"],
+            ["lifrar", "lifrar", "lifrum", "lifra"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "Hildur",
+          "inTheirLanguage": "Hildur, -ar, -ar",
+          "columns": [
+            ["Hildur", "Hildi", "Hildi", "Hildar"],
+            ["Hildar", "Hildar", "Hildum", "Hilda"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "heath, mountain",
+          "inTheirLanguage": "heiði, -ar, -ar",
+          "columns": [
+            ["heiði", "heiði", "heiði", "heiðar"],
+            ["heiðar", "heiðar", "heiðum", "heiða"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "river",
+          "inTheirLanguage": "á, ár, ár",
+          "columns": [
+            ["á", "á", "á", "ár"],
+            ["ár", "ár", "ám", "áa"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "station",
+          "inTheirLanguage": "stöð, stöðvar, stödvar",
+          "columns": [
+            ["stöd", "stöð", "stöð", "stöðvar"],
+            ["stöðvar", "stöðvar", "stöðvum", "stöðva"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "shell",
+          "inTheirLanguage": "skel, skeljar, skeljar",
+          "columns": [
+            ["skel", "skel", "skel", "skeljar"],
+            ["skeljar", "skeljar", "skeljum", "skelja"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "time",
+          "inTheirLanguage": "tíð, -ar, -ir",
+          "columns": [
+            ["tíð", "tíð", "tíð", "tíðar"],
+            ["tíðir", "tíðir", "tíðum", "tíða"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "gift",
+          "inTheirLanguage": "gjöf, gjafar, -ir",
+          "columns": [
+            ["gjöf", "gjöf", "gjöf", "gjafar"],
+            ["gjafir", "gjafir", "gjöfum", "gjafa"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "trade",
+          "inTheirLanguage": "verslun, -ar, verslanir",
+          "columns": [
+            ["verslun", "verslun", "verslun", "verslunar"],
+            ["verslanir", "verslanir", "verslanum", "verslana"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "order",
+          "inTheirLanguage": "pöntun, -ar, pantanir",
+          "columns": [
+            ["pöntun", "pöntun", "pöntun", "pöntunar"],
+            ["pantanir", "pantanir", "pöntunum", "pantana"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "roast",
+          "inTheirLanguage": "steik, -ar, -ur",
+          "columns": [
+            ["steik", "steik", "steik", "steikar"],
+            ["steikur", "steikur", "steikum", "steika"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "pint",
+          "inTheirLanguage": "mörk, markar, merkur",
+          "columns": [
+            ["mörk", "mörk", "mörk", "markar"],
+            ["merkur", "merkur", "mörkum", "marka"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "book",
+          "inTheirLanguage": "bók, -ar, bækur",
+          "columns": [
+            ["bók", "bók", "bók", "bókar"],
+            ["bækur", "bækur", "bókum", "bóka"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "bridge",
+          "inTheirLanguage": "brú, -ar, brýr",
+          "columns": [
+            ["brú", "brú", "brú", "brúar"],
+            ["brýr", "brýr", "brúm", "brúa"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "cow",
+          "inTheirLanguage": "kýr",
+          "columns": [
+            ["kýr", "kú", "kú", "kýr"],
+            ["kýr", "kýr", "kúm", "kúa"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "mother",
+          "inTheirLanguage": "móðir, -ur, mæður",
+          "columns": [
+            ["móðir", "móður", "móður", "móður"],
+            ["mæður", "mæður", "mæðrum", "mæðra"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "table",
+          "inTheirLanguage": "borð, -s, -",
+          "columns": [
+            ["borð", "borð", "borði", "borðs"],
+            ["borð", "borð", "borðum", "borða"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "child",
+          "inTheirLanguage": "barn, -s, börn",
+          "columns": [
+            ["barn", "barn", "barni", "barns"],
+            ["börn", "börn", "börnum", "barna"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "kin",
+          "inTheirLanguage": "kyn, -s, -",
+          "columns": [
+            ["kyn", "kyn", "kyni", "kyns"],
+            ["kyn", "kyn", "kynjum", "kynja"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "tree",
+          "inTheirLanguage": "tré, -s, -",
+          "columns": [
+            ["tré", "tré", "tré", "trés"],
+            ["tré", "tré", "trjám", "trjáa"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "nest",
+          "inTheirLanguage": "hreiður, -s, -",
+          "columns": [
+            ["hreiður", "hreiður", "hreiðri", "hreiðurs"],
+            ["hreiður", "hreiður", "hreiðrum", "hreiðra"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "medicine",
+          "inTheirLanguage": "meðal, -a, meðöl",
+          "columns": [
+            ["meðal", "meðal", "meðali", "meðals"],
+            ["meðöl", "meðöl", "meðölum", "meðala"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "summer",
+          "inTheirLanguage": "sumar, -s, sumur",
+          "columns": [
+            ["sumar", "sumar", "sumri", "sumars"],
+            ["sumur", "sumur", "sumrum", "sumra"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "poem",
+          "inTheirLanguage": "kvæöi, -s, -i",
+          "columns": [
+            ["kvæði", "kvæði", "kvæði", "kvæði"],
+            ["kvæði", "kvæði", "kvæðum", "kvæða"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "state",
+          "inTheirLanguage": "riki, -s, -",
+          "columns": [
+            ["riki", "riki", "riki", "rikis"],
+            ["riki", "riki", "rikjum", "rikja"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "time, hour",
+          "inTheirLanguage": "tími",
+          "columns": [
+            ["tími", "tíma", "tíma", "tíma"],
+            ["tímar", "tíma", "tímum", "tíma"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "grandfather",
+          "inTheirLanguage": "afi, -a, -ar",
+          "columns": [
+            ["afi", "afa", "afa", "afa"],
+            ["afar", "afar", "öfum", "afa"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "will",
+          "inTheirLanguage": "vilji, -a, -ar",
+          "columns": [
+            ["vilji", "vilja", "vilja", "vilja"],
+            ["viljar", "vilja", "viljum", "vilja"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "judge",
+          "inTheirLanguage": "dómari, -a, -ar",
+          "columns": [
+            ["dómari", "dómari", "dómari", "dómari"],
+            ["dómarar", "dómarar", "dómurum", "dómara"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "baker",
+          "inTheirLanguage": "bakarí, -a, -ar",
+          "columns": [
+            ["bakarí", "bakara", "bakara", "bakara"],
+            ["bakarar", "bakara", "bökurum", "bakara"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "student",
+          "inTheirLanguage": "nemandi, -a, nemendur",
+          "columns": [
+            ["nemandi", "nemanda", "nemanda", "nemanda"],
+            ["nemendur", "nemendur", "nemendum", "nemenda"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "farmer",
+          "inTheirLanguage": "bóndi, -a, bændur",
+          "columns": [
+            ["bóndi", "bónda", "bónda", "bónda"],
+            ["bændur", "bændur", "bændum", "bænda"]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "tongue",
+          "inTheirLanguage": "tunga, -u, -ur",
+          "columns": [
+            ["tunga", "tungu", "tungu", "tungu"],
+            ["tungur", "tungur", "tungum", "tugna"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "story",
+          "inTheirLanguage": "saga, sögu, -ur",
+          "columns": [
+            ["saga", "sögu", "sögu", "sögu"],
+            ["sögur", "sögur", "sögum", "sagna"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "lily",
+          "inTheirLanguage": "lilja, -u, -ur",
+          "columns": [
+            ["lilja", "lilju", "lilju", "lilju"],
+            ["liljur", "lilur", "lilum", "lilja"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "grandmother",
+          "inTheirLanguage": "amma, ömmu, -ur",
+          "columns": [
+            ["amma", "ömmu", "ömmu", "ömmu"],
+            ["ömmur", "ömmur", "ömmum", "amma"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "lie",
+          "inTheirLanguage": "lygi, -i, -ar",
+          "columns": [
+            ["lygi", "lygi", "lygi", "lygi"],
+            ["lygar", "lygar", "lygum", "lyga"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "life",
+          "inTheirLanguage": "æfi, -i, -ir",
+          "columns": [
+            ["æfi", "æfi", "æfi", "æfi"],
+            ["æfir", "æfir", "æfum", "æfa"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "learning, -logy",
+          "inTheirLanguage": "fræði, -i",
+          "columns": [
+            ["fræði", "fræði", "fræði", "fræði"]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "eye",
+          "inTheirLanguage": "auga, -a, -u",
+          "columns": [
+            ["auga", "auga", "auga", "auga"],
+            ["augu", "augu", "augum", "augna"]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "heart",
+          "inTheirLanguage": "hjarta, -a, hjörtu",
+          "columns": [
+            ["hjarta", "hjarta", "hjarta", "hjarta"],
+            ["hjörtu", "hjörtu", "hjörtum", "hjartna"]
+          ],
+          "type": "n n"
+        }
+      ]
+    },
+
+    {
       "title": "sagnir",
       "words": [
         {
