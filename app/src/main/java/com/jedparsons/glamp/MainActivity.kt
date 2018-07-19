@@ -7,7 +7,8 @@ import android.view.MenuItem
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.widget.TextView
-import com.jedparsons.glamp.GestureEvents.Fling
+import com.jedparsons.glamp.GestureEvents.FlingLeft
+import com.jedparsons.glamp.GestureEvents.FlingRight
 import com.jedparsons.glamp.GestureEvents.Tap
 import com.jedparsons.glamp.GestureListener.Companion.gestureListener
 import kotlinx.android.synthetic.main.activity_main.toolbar
@@ -24,6 +25,7 @@ class MainActivity : AppCompatActivity() {
 
   private lateinit var box: Box
 
+  // TODO - encapsulate the idea of a learning mode
   private var defaultVisibility = GONE
 
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -73,7 +75,18 @@ class MainActivity : AppCompatActivity() {
         .events()
         .subscribe {
           when (it) {
-            is Fling -> deck.reshuffle()
+            is FlingRight -> {
+              when(defaultVisibility) {
+                VISIBLE -> deck.cycleForward()
+                else -> deck.reshuffle()
+              }
+            }
+            is FlingLeft -> {
+              when(defaultVisibility) {
+                VISIBLE -> deck.cycleBackward()
+                else -> deck.reshuffle()
+              }
+            }
             is Tap -> {
               deck.peek()
               back_of_card.visibility = VISIBLE

@@ -4,14 +4,16 @@ import android.view.GestureDetector
 import android.view.GestureDetector.OnGestureListener
 import android.view.MotionEvent
 import android.view.View
-import com.jedparsons.glamp.GestureEvents.Fling
+import com.jedparsons.glamp.GestureEvents.FlingLeft
+import com.jedparsons.glamp.GestureEvents.FlingRight
 import com.jedparsons.glamp.GestureEvents.Tap
 import io.reactivex.subjects.PublishSubject
 
 const val MIN_SWIPE_DISTANCE_PX = 150
 
 sealed class GestureEvents {
-  object Fling : GestureEvents()
+  object FlingRight: GestureEvents()
+  object FlingLeft : GestureEvents()
   object Tap : GestureEvents()
 }
 
@@ -51,7 +53,10 @@ class GestureListener : OnGestureListener {
         (startEvent.y - endEvent.y) * (startEvent.y - endEvent.y) >
         MIN_SWIPE_DISTANCE_PX * MIN_SWIPE_DISTANCE_PX
     ) {
-      events.onNext(Fling)
+      events.onNext(when {
+        startEvent.x < endEvent.x -> FlingRight
+        else -> FlingLeft
+      })
     }
     return true
   }

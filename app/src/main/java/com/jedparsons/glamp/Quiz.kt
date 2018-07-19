@@ -28,9 +28,19 @@ data class Card(
   fun familiarity() = draws / (peeks + 1)
 }
 
-private fun ArrayList<Card>.top() = this[0]
+private fun ArrayList<Card>.popFirst() = this.removeAt(0)
 
-private fun ArrayList<Card>.pop() = this.removeAt(0)
+private fun ArrayList<Card>.popLast() = this.removeAt(size - 1)
+
+private fun ArrayList<Card>.reshuffleFirst(random: Random) {
+  val card = this.popFirst()
+  val newIndex = min(5 + card.familiarity() * (random.nextInt(17) + 1), size)
+  this.add(newIndex, card)
+}
+
+private fun ArrayList<Card>.cycleRight() = this.add(this.popFirst())
+
+private fun ArrayList<Card>.cycleLeft() = this.add(0, this.popLast())
 
 /**
  * A deck of flash [Card]s.
@@ -59,16 +69,24 @@ class Deck(
    * Put the card back in the deck. The better you know the card, the farther back it goes.
    */
   fun reshuffle() {
-    val card = cards.pop()
-    val newIndex = min(5 + card.familiarity() * (random.nextInt(17) + 1), cards.size)
-    cards.add(newIndex, card)
+    cards.reshuffleFirst(random)
     nextCard()
   }
 
-  fun peek() = cards.top().hadToPeek()
+  fun cycleForward() {
+    cards.cycleRight()
+    nextCard()
+  }
+
+  fun cycleBackward() {
+    cards.cycleLeft()
+    nextCard()
+  }
+
+  fun peek() = cards.first().hadToPeek()
 
   private fun nextCard() {
-    observable.onNext(cards.top().show())
+    observable.onNext(cards.first().show())
   }
 }
 
