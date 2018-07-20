@@ -2,15 +2,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.jedparsons.glamp.MainActivity">
+
+  <item
+      android:id="@+id/shuffle"
+      android:orderInCategory="98"
+      android:title="\@"
+      app:showAsAction="ifRoom"
+      />
+
   <item
       android:id="@+id/action_visibility"
       android:orderInCategory="99"
       android:title=":)"
-      app:showAsAction="ifRoom"/>
+      app:showAsAction="ifRoom"
+      />
 
   <item
       android:id="@+id/this_is_iceland"
       android:orderInCategory="100"
       android:title="@string/this_is_not_paris"
-      app:showAsAction="never"/>
+      app:showAsAction="never"
+      />
+
 </menu>

@@ -47,7 +47,7 @@ private fun ArrayList<Card>.cycleLeft() = this.add(0, this.popLast())
  *
  * Subscribe to `cards()` to observe the cards as they are drawn.
  *
- * Call `reshuffle()` when you're done looking at a card.
+ * Call `reshuffleCard()` when you're done looking at a card.
  *
  * Call `peek()` to peek at the translation of the word.
  */
@@ -68,7 +68,7 @@ class Deck(
   /**
    * Put the card back in the deck. The better you know the card, the farther back it goes.
    */
-  fun reshuffle() {
+  fun reshuffleCard() {
     cards.reshuffleFirst(random)
     nextCard()
   }
@@ -84,6 +84,11 @@ class Deck(
   }
 
   fun peek() = cards.first().hadToPeek()
+
+  fun shuffleCards() {
+    cards.shuffle()
+    nextCard()
+  }
 
   private fun nextCard() {
     observable.onNext(cards.first().show())
@@ -125,4 +130,6 @@ class Box(
   fun titles() = decks.map { it.title }
 
   fun getDeck(title: String) = decks.first { it.title == title }
+
+  fun shuffleDecks() = decks.forEach { it.shuffleCards() }
 }

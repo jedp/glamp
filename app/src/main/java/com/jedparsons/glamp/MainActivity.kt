@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
         }
         back_of_card.visibility = defaultVisibility
       }
+      R.id.shuffle -> box.shuffleDecks()
       R.id.this_is_iceland -> showPremiseAndConclusion(true)
       else -> {
         showPremiseAndConclusion(false)
@@ -78,13 +79,13 @@ class MainActivity : AppCompatActivity() {
             is FlingRight -> {
               when(defaultVisibility) {
                 VISIBLE -> deck.cycleForward()
-                else -> deck.reshuffle()
+                else -> deck.reshuffleCard()
               }
             }
             is FlingLeft -> {
               when(defaultVisibility) {
                 VISIBLE -> deck.cycleBackward()
-                else -> deck.reshuffle()
+                else -> deck.reshuffleCard()
               }
             }
             is Tap -> {
