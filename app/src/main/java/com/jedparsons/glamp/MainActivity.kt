@@ -12,12 +12,12 @@ import com.jedparsons.glamp.GestureEvents.FlingRight
 import com.jedparsons.glamp.GestureEvents.Tap
 import com.jedparsons.glamp.GestureListener.Companion.gestureListener
 import kotlinx.android.synthetic.main.activity_main.toolbar
-import kotlinx.android.synthetic.main.content_main.back_of_card
-import kotlinx.android.synthetic.main.content_main.columns
-import kotlinx.android.synthetic.main.content_main.flash_card_content
-import kotlinx.android.synthetic.main.content_main.front_of_card
-import kotlinx.android.synthetic.main.content_main.premise_and_conclusion
-import kotlinx.android.synthetic.main.content_main.summary
+import kotlinx.android.synthetic.main.flash_card.back_of_card
+import kotlinx.android.synthetic.main.flash_card.columns
+import kotlinx.android.synthetic.main.flash_card.flash_card_content
+import kotlinx.android.synthetic.main.flash_card.front_of_card
+import kotlinx.android.synthetic.main.flash_card.premise_and_conclusion
+import kotlinx.android.synthetic.main.flash_card.summary
 import timber.log.Timber
 import timber.log.Timber.DebugTree
 
