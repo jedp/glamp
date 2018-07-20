@@ -4,30 +4,17 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View.GONE
-import android.view.View.VISIBLE
-import android.widget.TextView
-import com.jedparsons.glamp.GestureEvents.FlingLeft
-import com.jedparsons.glamp.GestureEvents.FlingRight
-import com.jedparsons.glamp.GestureEvents.Tap
 import com.jedparsons.glamp.GestureListener.Companion.gestureListener
+import kotlinx.android.synthetic.main.activity_main.everything
 import kotlinx.android.synthetic.main.activity_main.toolbar
-import kotlinx.android.synthetic.main.flash_card.back_of_card
-import kotlinx.android.synthetic.main.flash_card.columns
-import kotlinx.android.synthetic.main.flash_card.flash_card_content
 import kotlinx.android.synthetic.main.flash_card.front_of_card
-import kotlinx.android.synthetic.main.flash_card.part_of_speech
 import kotlinx.android.synthetic.main.flash_card.premise_and_conclusion
-import kotlinx.android.synthetic.main.flash_card.summary
 import timber.log.Timber
 import timber.log.Timber.DebugTree
 
 class MainActivity : AppCompatActivity() {
 
-  private lateinit var box: Box
-
-  // TODO - encapsulate the idea of a learning mode
-  private var defaultVisibility = GONE
+  private lateinit var practicum: Practicum
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -37,87 +24,29 @@ class MainActivity : AppCompatActivity() {
     setContentView(R.layout.activity_main)
     setSupportActionBar(toolbar)
 
-    box = Box.of(resources, R.raw.icelandic)
-    back_of_card.visibility = defaultVisibility
+    practicum = Practicum(this, gestureListener(everything).events())
 
     showPremiseAndConclusion(true)
   }
 
   override fun onCreateOptionsMenu(menu: Menu): Boolean {
     menuInflater.inflate(R.menu.menu_main, menu)
-    box.titles()
+    practicum.titles
         .map { menu.add(it) }
     return true
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
     when (item.itemId) {
-      R.id.action_visibility -> {
-        defaultVisibility = when (defaultVisibility) {
-          GONE -> VISIBLE
-          else -> GONE
-        }
-        back_of_card.visibility = defaultVisibility
-      }
-      R.id.shuffle -> box.shuffleDecks()
+      R.id.action_visibility -> practicum.toggleLearningMode()
+      R.id.shuffle -> practicum.shuffleDecks()
       R.id.this_is_iceland -> showPremiseAndConclusion(true)
       else -> {
         showPremiseAndConclusion(false)
-        chooseDeck(box.getDeck(item.toString()))
+        practicum.studyDeck(item.toString())
       }
     }
     return true
-  }
-
-  private fun chooseDeck(deck: Deck) {
-    deck.cards()
-        .subscribe(::displayNewWord)
-
-    gestureListener(flash_card_content)
-        .events()
-        .subscribe {
-          when (it) {
-            is FlingRight -> {
-              when(defaultVisibility) {
-                VISIBLE -> deck.cycleForward()
-                else -> deck.reshuffleCard()
-              }
-            }
-            is FlingLeft -> {
-              when(defaultVisibility) {
-                VISIBLE -> deck.cycleBackward()
-                else -> deck.reshuffleCard()
-              }
-            }
-            is Tap -> {
-              deck.peek()
-              back_of_card.visibility = VISIBLE
-            }
-          }
-        }
-  }
-
-  private fun displayNewWord(word: Word) {
-    front_of_card.text = word.inOurLanguage
-
-    back_of_card.visibility = defaultVisibility
-
-    summary.text = word.inTheirLanguage
-
-    // Hide the three text columns.
-    (0 until 3).forEach {
-      columns.getChildAt(it)
-          .visibility = GONE
-    }
-
-    // Fill the columns that should have text and show them.
-    (0 until word.columns.size).forEach { index ->
-      val column = columns.getChildAt(index) as TextView
-      column.text = word.columns[index].joinToString("\n")
-      column.visibility = VISIBLE
-    }
-
-    part_of_speech.text = word.type
   }
 
   /**

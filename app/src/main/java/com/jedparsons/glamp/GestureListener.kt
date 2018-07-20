@@ -11,12 +11,6 @@ import io.reactivex.subjects.PublishSubject
 
 const val MIN_SWIPE_DISTANCE_PX = 150
 
-sealed class GestureEvents {
-  object FlingRight: GestureEvents()
-  object FlingLeft : GestureEvents()
-  object Tap : GestureEvents()
-}
-
 class GestureListener : OnGestureListener {
 
   private val events: PublishSubject<GestureEvents> = PublishSubject.create()
