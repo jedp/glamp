@@ -1360,6 +1360,259 @@
     },
 
     {
+      "title": "ákveðni greinirinn",
+      "words": [
+        {
+          "inOurLanguage": "the horse",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "hesturinn",
+              "hestinn",
+              "hestinum",
+              "hestsins"
+            ],
+            [
+              "hestarnar",
+              "hestana",
+              "hestunum",
+              "hestanna"
+            ]
+          ],
+          "type": ""
+        },
+        {
+          "inOurLanguage": "the place",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "staðurinn",
+              "staðinn",
+              "staðnum",
+              "staðarins"
+            ],
+            [
+              "staðirnir",
+              "staðina",
+              "stöðunum",
+              "staðanna"
+            ]
+          ],
+          "type": ""
+        },
+        {
+          "inOurLanguage": "the shoe",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "skórinn",
+              "skóinn",
+              "skónum",
+              "skósins"
+            ],
+            [
+              "skórnir",
+              "skóna",
+              "skónum",
+              "skónna"
+            ]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "the time, hour",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "tíminn",
+              "tímann",
+              "tímanum",
+              "tímans"
+            ],
+            [
+              "tímarnir",
+              "tímana",
+              "tímunum",
+              "tímanna"
+            ]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "the cheek",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "kinnin",
+              "kinnina",
+              "kinninni",
+              "kinnarinnar"
+            ],
+            [
+              "kinnarnar",
+              "kinnarnar",
+              "kinnunum",
+              "kinnanna"
+            ]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "the river",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "áin",
+              "ána",
+              "ánni",
+              "árinnar"
+            ],
+            [
+              "árnar",
+              "árnar",
+              "ánum",
+              "ánna"
+            ]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "the liver",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "lifrin",
+              "lifrinna",
+              "lifrinni",
+              "lifrarinnar"
+            ],
+            [
+              "lifrarnar",
+              "lifrarnar",
+              "lifrunum",
+              "lifranna"
+            ]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "the lily",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "liljan",
+              "liljuna",
+              "liljunni",
+              "liljunnar"
+            ],
+            [
+              "liljurnar",
+              "liljurnar",
+              "liljjunum",
+              "liljanna"
+            ]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "the child",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "barnið",
+              "barnið",
+              "barninu",
+              "barnsins"
+            ],
+            [
+              "börnin",
+              "börnin",
+              "börnunum",
+              "barnanna"
+            ]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "the tree",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "tréð",
+              "tréð",
+              "trénu",
+              "trésins"
+            ],
+            [
+              "trén",
+              "trén",
+              "trjánum",
+              "trjánna"
+            ]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "the tea",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "teið",
+              "teið",
+              "teinu",
+              "tesins"
+            ],
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "type": ""
+        },
+        {
+          "inOurLanguage": "the nest",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "hreiðrið",
+              "hreiðrið",
+              "hreiðrinu",
+              "hreiðursins"
+            ],
+            [
+              "hreiðrin",
+              "hreiðrin",
+              "hreiðrunum",
+              "hreiðranna"
+            ]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "the eyes",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "augað",
+              "augað",
+              "auganu",
+              "augans"
+            ],
+            [
+              "augun",
+              "augun",
+              "augunum",
+              "augnanna"
+            ]
+          ],
+          "type": "n n"
+        }
+      ]
+    },
+
+    {
       "title": "sagnir",
       "words": [
         {
