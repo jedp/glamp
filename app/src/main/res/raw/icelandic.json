@@ -1924,7 +1924,368 @@
             ]
           ],
           "type": "pron"
+        },
+        {
+          "inOurLanguage": "my, mine",
+          "inTheirLanguage": "minn, mín, mitt",
+          "columns": [
+            [
+              "minn",
+              "minn",
+              "mínum",
+              "míns",
+              "",
+              "mínir",
+              "mína",
+              "mínum",
+              "minna"
+            ],
+            [
+              "mín",
+              "mína",
+              "minni",
+              "minnar",
+              "",
+              "mínar",
+              "mínar",
+              "mínum",
+              "minna"
+            ],
+            [
+              "mitt",
+              "mitt",
+              "mínu",
+              "míns",
+              "",
+              "mín",
+              "mín",
+              "mínum",
+              "minna"
+            ]
+          ],
+          "type": "pron poss"
+        },
+        {
+          "inOurLanguage": "your, yours",
+          "inTheirLanguage": "þinn, þín, þitt",
+          "columns": [
+            [
+              "þinn",
+              "þinn",
+              "þínum",
+              "þíns",
+              "",
+              "þínir",
+              "þínur",
+              "þínum",
+              "þinna"
+            ],
+            [
+              "þín",
+              "þína",
+              "þinni",
+              "þinnar",
+              "",
+              "þínar",
+              "þínar",
+              "þínum",
+              "þinna"
+            ],
+            [
+              "þitt",
+              "þitt",
+              "þínu",
+              "þíns",
+              "",
+              "þín",
+              "þín",
+              "þínum",
+              "þinna"
+            ]
+          ],
+          "type": "pron poss"
+        },
+        {
+          "inOurLanguage": "his, her, its",
+          "inTheirLanguage": "sinn, sín, sitt",
+          "columns": [
+            [
+              "sinn",
+              "sinn",
+              "sínum",
+              "síns",
+              "",
+              "sínir",
+              "sínur",
+              "sínum",
+              "sinna"
+            ],
+            [
+              "sín",
+              "sína",
+              "sinni",
+              "sinnar",
+              "",
+              "sínar",
+              "sínar",
+              "sínum",
+              "sinna"
+            ],
+            [
+              "sitt",
+              "sitt",
+              "sinu",
+              "sins",
+              "",
+              "sín",
+              "sín",
+              "sínum",
+              "sinna"
+            ]
+          ],
+          "type": "pron poss"
+        },
+        {
+          "inOurLanguage": "the, he who",
+          "inTheirLanguage": "sá, sú, það",
+          "columns": [
+            [
+              "sá",
+              "þann",
+              "þeim",
+              "þess",
+              "",
+              "þeir",
+              "þá",
+              "þeim",
+              "þeirra"
+            ],
+            [
+              "sú",
+              "þá",
+              "þeirri",
+              "þeirrar",
+              "",
+              "þær",
+              "þær",
+              "þeim",
+              "þeirra"
+            ],
+            [
+              "það",
+              "það",
+              "því",
+              "þess",
+              "",
+              "þau(g)",
+              "þau(g)",
+              "þeim",
+              "þeirra"
+            ]
+          ],
+          "type": "pron dem"
+        },
+        {
+          "inOurLanguage": "this one, this here",
+          "inTheirLanguage": "þessi, þessi, þetta(ð)",
+          "columns": [
+            [
+              "þessi",
+              "þenna(n)",
+              "þessum",
+              "þessa",
+              "",
+              "þessir",
+              "þessa",
+              "þessum",
+              "þessara"
+            ],
+            [
+              "þessi",
+              "þessa",
+              "þessari",
+              "þessarar",
+              "",
+              "þessar",
+              "þessar",
+              "þessum",
+              "þessara"
+            ],
+            [
+              "þetta(ð)",
+              "þetta(ð)",
+              "þessu",
+              "þessa",
+              "",
+              "þessi",
+              "þessi",
+              "þessum",
+              "þessara"
+            ]
+          ],
+          "type": "pron dem"
+        },
+        {
+          "inOurLanguage": "that one, the other (opp þessi)",
+          "inTheirLanguage": "hinn, hin, hitt",
+          "columns": [
+            [
+              "hinn",
+              "hinn",
+              "hinum",
+              "hins",
+              "",
+              "hinir",
+              "hinir",
+              "hinum",
+              "hinna"
+            ],
+            [
+              "hín",
+              "hína",
+              "hinni",
+              "hinnar",
+              "",
+              "hinar",
+              "hinar",
+              "hinum",
+              "hinna"
+            ],
+            [
+              "hitt",
+              "hitt",
+              "hinu",
+              "hins",
+              "",
+              "hin",
+              "hin",
+              "hinum",
+              "hinna"
+            ]
+          ],
+          "type": "pron dem"
+        },
+        {
+          "inOurLanguage": "who, which, what",
+          "inTheirLanguage": "hver, hver, hvað",
+          "columns": [
+            [
+              "hver",
+              "hvern",
+              "hverjum",
+              "hvera",
+              "",
+              "hverjir",
+              "hverja",
+              "hverjum",
+              "hverra"
+            ],
+            [
+              "hver",
+              "hverja",
+              "hverri",
+              "hverrar",
+              "",
+              "hverjar",
+              "hverjar",
+              "hverjum",
+              "hverra"
+            ],
+            [
+              "hvað",
+              "hvað",
+              "hverju",
+              "hvers",
+              "",
+              "hver",
+              "hver",
+              "hverjum",
+              "hverja"
+            ]
+          ],
+          "type": "pron interrog"
+        },
+        {
+          "inOurLanguage": "any(one), some, certain",
+          "inTheirLanguage": "nokkur, nokkur, nokkurt",
+          "columns": [
+            [
+              "nokkur",
+              "nokkurn",
+              "nokkrum",
+              "nokkurs",
+              "",
+              "nokkrir",
+              "nokkra",
+              "nokkrum",
+              "nokkurra"
+            ],
+            [
+              "nokkur",
+              "nokkra",
+              "nokkurri",
+              "nokkurrar",
+              "",
+              "nokkrar",
+              "nokkrar",
+              "nokkrum",
+              "nokkurra"
+            ],
+            [
+              "nokkuð",
+              "nokkuð",
+              "nokkru",
+              "nokkurs",
+              "",
+              "nokkur",
+              "nokkur",
+              "nokkrum",
+              "nokkurra"
+            ]
+          ],
+          "type": "pron"
+        },
+        {
+          "inOurLanguage": "someone, something",
+          "inTheirLanguage": "enginn, engin, ekkert",
+          "columns": [
+            [
+              "enginn",
+              "engan",
+              "engum",
+              "einskis",
+              "",
+              "engir",
+              "enga",
+              "engum",
+              "engra"
+            ],
+            [
+              "engin",
+              "enga",
+              "engri",
+              "engrar",
+              "",
+              "engar",
+              "engar",
+              "engum",
+              "engra"
+            ],
+            [
+              "ekkert",
+              "ekkert",
+              "engu",
+              "einskis",
+              "",
+              "engin",
+              "engin",
+              "engum",
+              "engra"
+            ]
+          ],
+          "type": "pron"
         }
+
       ]
     },
 
@@ -2080,6 +2441,161 @@
           "inOurLanguage": "alone",
           "inTheirLanguage": "einsamall, -sömul, -samalt",
           "type": "adj"
+        },
+        {
+          "inOurLanguage": "one",
+          "inTheirLanguage": "einn, ein, eitt",
+          "columns": [
+            [
+              "einn",
+              "einn",
+              "einum",
+              "eins",
+              "",
+              "einir",
+              "einra",
+              "einum",
+              "einna"
+            ],
+            [
+              "ein",
+              "eina",
+              "einni",
+              "einnar",
+              "",
+              "einar",
+              "einar",
+              "einum",
+              "einna"
+            ],
+            [
+              "eitt",
+              "eitt",
+              "einu",
+              "eins",
+              "",
+              "ein",
+              "ein",
+              "einum",
+              "einna"
+            ]
+          ],
+          "type": ""
+        },
+        {
+          "inOurLanguage": "two",
+          "inTheirLanguage": "tveir",
+          "columns": [
+            [
+              "tveir",
+              "two",
+              "tveim",
+              "tveggja"
+            ],
+            [
+              "tvær",
+              "tvær",
+              "tveim(ur)",
+              "tveggja"
+            ],
+            [
+              "tvö",
+              "tvö",
+              "tveim(ur)",
+              "tveggja"
+            ]
+          ],
+          "type": ""
+        },
+        {
+          "inOurLanguage": "three",
+          "inTheirLanguage": "ðrír, ðrjár, ðrjú",
+          "columns": [
+            [
+              "þrír",
+              "þrjá",
+              "þrem(ur)",
+              "þriggja"
+            ],
+            [
+              "þrjár",
+              "þrjár",
+              "þrem(ur)",
+              "þriggja"
+            ],
+            [
+              "þrjú",
+              "þrjú",
+              "þrem(ur)",
+              "þriggja"
+            ]
+          ],
+          "type": ""
+        },
+        {
+          "inOurLanguage": "four",
+          "inTheirLanguage": "fjórir, fjórar, fjögur",
+          "columns": [
+            [
+              "fjórir",
+              "fjórar",
+              "fjórum",
+              "fjögra"
+            ],
+            [
+              "fjórar",
+              "fjórar",
+              "fjórum",
+              "fjögra"
+            ],
+            [
+              "fjögur",
+              "fjögur",
+              "fjórum",
+              "fjögra"
+            ]
+          ],
+          "type": ""
+        },
+        {
+          "inOurLanguage": "second, other",
+          "inTheirLanguage": "annar, önnur, annað",
+          "columns": [
+            [
+              "annar",
+              "annan",
+              "öðrum",
+              "annars",
+              "",
+              "aðrir",
+              "aðra",
+              "öðrum",
+              "annara"
+            ],
+            [
+              "önnur",
+              "aðra",
+              "annari",
+              "annarar",
+              "",
+              "aðrar",
+              "aðrar",
+              "öðrum",
+              "annara"
+            ],
+            [
+              "annað",
+              "annað",
+              "öðru",
+              "annars",
+              "",
+              "önnur",
+              "önnur",
+              "öðrum",
+              "annara"
+            ]
+          ],
+          "type": ""
         }
       ]
     },

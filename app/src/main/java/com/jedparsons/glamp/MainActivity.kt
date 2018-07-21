@@ -16,6 +16,7 @@ import kotlinx.android.synthetic.main.flash_card.back_of_card
 import kotlinx.android.synthetic.main.flash_card.columns
 import kotlinx.android.synthetic.main.flash_card.flash_card_content
 import kotlinx.android.synthetic.main.flash_card.front_of_card
+import kotlinx.android.synthetic.main.flash_card.part_of_speech
 import kotlinx.android.synthetic.main.flash_card.premise_and_conclusion
 import kotlinx.android.synthetic.main.flash_card.summary
 import timber.log.Timber
@@ -115,6 +116,8 @@ class MainActivity : AppCompatActivity() {
       column.text = word.columns[index].joinToString("\n")
       column.visibility = VISIBLE
     }
+
+    part_of_speech.text = word.type
   }
 
   /**
