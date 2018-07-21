@@ -1608,6 +1608,15 @@
             ]
           ],
           "type": "n n"
+        },
+        {
+          "inOurLanguage": "the man",
+          "inTheirLanguage": "",
+          "columns": [
+            ["maðurinn", "manninn", "manninum", "mannsins"],
+            ["mennirnir", "mennina", "mönnunum", "mannanna"]
+          ],
+          "type": "n m"
         }
       ]
     },
