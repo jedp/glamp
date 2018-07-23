@@ -725,6 +725,250 @@
     },
 
     {
+      "title": "venjulegur dagur",
+      "words": [
+        {
+          "inOurLanguage": "always",
+          "inTheirLanguage": "alltaf",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "suddenly",
+          "inTheirLanguage": "allt í einu",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "every day",
+          "inTheirLanguage": "á hverjum degi",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "nobody",
+          "inTheirLanguage": "enginn",
+          "type": "pron m"
+        },
+        {
+          "inOurLanguage": "exactly",
+          "inTheirLanguage": "einmitt",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "to get up (in the morning)",
+          "inTheirLanguage": "að fara á fætur",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "to take a shower",
+          "inTheirLanguage": "að fara í sturtu",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "lunch",
+          "inTheirLanguage": "hádegismatur",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "evening",
+          "inTheirLanguage": "kvöld",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "to let",
+          "inTheirLanguage": "að láta, ég læt",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to do homework",
+          "inTheirLanguage": "að læra heima",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "anything",
+          "inTheirLanguage": "neitt",
+          "type": "pron n"
+        },
+        {
+          "inOurLanguage": "often",
+          "inTheirLanguage": "oft",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "usually",
+          "inTheirLanguage": "oftast",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "telephone",
+          "inTheirLanguage": "simi",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "to call (on the phone)",
+          "inTheirLanguage": "að hringja",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "shower (noun)",
+          "inTheirLanguage": "sturta",
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "exciting",
+          "inTheirLanguage": "spennandi",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "busy",
+          "inTheirLanguage": "upptekinn",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "to wake up (intrans)",
+          "inTheirLanguage": "að vakna",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to be available",
+          "inTheirLanguage": "að vera við",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "to work",
+          "inTheirLanguage": "að vinna",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to jump",
+          "inTheirLanguage": "að stökkva, ég stekk",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to sleep",
+          "inTheirLanguage": "að sofa, ég sef",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to wash",
+          "inTheirLanguage": "að þvo, ég þvæ",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to row",
+          "inTheirLanguage": "að róa, ég ræ",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to get",
+          "inTheirLanguage": "að fá, ég fæ",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to fly",
+          "inTheirLanguage": "að flúga, ég flýg",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to run",
+          "inTheirLanguage": "að hlaupa, ég hleyp",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "to see",
+          "inTheirLanguage": "að sjá, ég sé",
+          "type": "v"
+        },
+        {
+          "inOurLanguage": "it is 13.00; 6.00; 12.00",
+          "inTheirLanguage": "klukkan/hún er eitt; sex; tólf",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "it is 12.30; 5.30; 11.30",
+          "inTheirLanguage": "klukkan er hálf eitt; hálf sex; hálf tólf",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "it is 12.58",
+          "inTheirLanguage": "hún er tvæar minútur í eitt",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "it is 19.03",
+          "inTheirLanguage": "klukkan er þrjár mínútur yfir sjö",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "it is 3.40",
+          "inTheirLanguage": "hún er tuttugu mínútur í fjögur",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "it is 14.15",
+          "inTheirLanguage": "klukkan er korter yfir tvö",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "it is 00.15",
+          "inTheirLanguage": "hún er korter yfir tólf",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "today is ...",
+          "inTheirLanguage": "í dag er ...",
+          "columns": [
+            [
+              "mánudagur",
+              "þriðjudagur",
+              "miðvikudagur",
+              "fimmtudagur",
+              "föstudagur",
+              "laugardagur",
+              "sunnudagur"
+            ]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "tomorrow is ...",
+          "inTheirLanguage": "á morgun er ...",
+          "columns": [
+            [
+              "mánudagur",
+              "þriðjudagur",
+              "miðvikudagur",
+              "fimmtudagur",
+              "föstudagur",
+              "laugardagur",
+              "sunnudagur"
+            ]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "yesterday was ...",
+          "inTheirLanguage": "í gær var ...",
+          "columns": [
+            [
+              "mánudagur",
+              "þriðjudagur",
+              "miðvikudagur",
+              "fimmtudagur",
+              "föstudagur",
+              "laugardagur",
+              "sunnudagur"
+            ]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "on monday; tuesday; ...",
+          "inTheirLanguage": "á manudaginn; þriðjudagur; ...",
+          "type": "n m"
+        }
+      ]
+    },
+
+    {
       "title": "nafnorð",
       "words": [
         {
