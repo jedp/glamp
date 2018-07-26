@@ -978,7 +978,7 @@
             ["hestur", "hest", "hesti", "hests"],
             ["hestar", "hesta", "hestum", "hesta"]
           ],
-          "type": "n"
+          "type": "n m1"
         },
         {
           "inOurLanguage": "hat",
@@ -987,7 +987,7 @@
             ["hattur", "hatt", "hatti", "hatts"],
             ["hattar", "hatta", "höttum", "hatta"]
           ],
-          "type": "n n"
+          "type": "n m1"
         },
         {
           "inOurLanguage": "peat",
@@ -996,7 +996,7 @@
             ["mór", "mó", "mó", "mós"],
             ["móar", "móa", "móum", "móa"]
           ],
-          "type": "n m"
+          "type": "n m1"
         },
         {
           "inOurLanguage": "geyser",
@@ -1005,7 +1005,7 @@
             ["hver", "hver", "hver", "hvers"],
             ["hverar", "hvera", "hverum", "hvera"]
           ],
-          "type": "n m"
+          "type": "n m1"
         },
         {
           "inOurLanguage": "field",
@@ -1014,7 +1014,7 @@
             ["akur", "akur", "akri", "akurs"],
             ["akrar", "akra", "ökrum", "akra"]
           ],
-          "type": "n m"
+          "type": "n m1"
         },
         {
           "inOurLanguage": "chair",
@@ -1023,7 +1023,7 @@
             ["stóll", "stól", "stóli", "stóls"],
             ["stólar", "stóla", "stólum", "stóla"]
           ],
-          "type": "n m"
+          "type": "n m1"
         },
         {
           "inOurLanguage": "heaven",
@@ -1032,7 +1032,7 @@
             ["himinn", "himin", "himini", "himins"],
             ["himnar", "himna", "himnum", "himna"]
           ],
-          "type": "n m"
+          "type": "n m1"
         },
         {
           "inOurLanguage": "doctor",
@@ -1041,7 +1041,7 @@
             ["læknir", "lækni", "lækni", "læknis"],
             ["læknar", "lækna", "læknum", "lækna"]
           ],
-          "type": "n m"
+          "type": "n m1"
         },
         {
           "inOurLanguage": "song",
@@ -1050,7 +1050,7 @@
             ["söngur", "söng", "söng(vi)", "söngs"],
             ["söngvar", "söngva", "söngvum", "söngva"]
           ],
-          "type": "n m"
+          "type": "n m1"
         },
         {
           "inOurLanguage": "smith",
@@ -1059,7 +1059,7 @@
             ["smiður", "smið", "smið", "smiðs"],
             ["smiðir", "smiði", "smiðum", "smiða"]
           ],
-          "type": "n m"
+          "type": "n m2"
         },
         {
           "inOurLanguage": "valley",
@@ -1068,7 +1068,7 @@
             ["dalur", "dal", "dal", "dals"],
             ["dalir", "dali", "dölum", "dala"]
           ],
-          "type": "n m"
+          "type": "n m2"
         },
         {
           "inOurLanguage": "play",
@@ -1077,7 +1077,7 @@
             ["leikur", "leik", "leik", "leiks"],
             ["leikir", "leiki", "leikjum", "leikja"]
           ],
-          "type": "n m"
+          "type": "n m2"
         },
         {
           "inOurLanguage": "wall",
@@ -1086,7 +1086,7 @@
             ["veggur", "vegg", "vegg", "veggjar"],
             ["veggir", "veggi", "veggjum", "veggja"]
           ],
-          "type": "n m"
+          "type": "n m2"
         },
         {
           "inOurLanguage": "thing",
@@ -1095,7 +1095,7 @@
             ["hlutur", "hlut", "hlut", "hlutar"],
             ["hlutir", "hluti", "hlutum", "hluta"]
           ],
-          "type": "n m"
+          "type": "n m3"
         },
         {
           "inOurLanguage": "place",
@@ -1104,7 +1104,7 @@
             ["staður", "stað", "stað", "staðar"],
             ["staðir", "staði", "stöðum", "staða"]
           ],
-          "type": "n m"
+          "type": "n m3"
         },
         {
           "inOurLanguage": "clothing",
@@ -1113,7 +1113,7 @@
             ["fatnaður", "fatnað", "fatnaði", "fatnaðar"],
             ["fatnaðir", "fatnaði", "fötnuðum", "fatnaða"]
           ],
-          "type": "n m"
+          "type": "n m3"
         },
         {
           "inOurLanguage": "congregation",
@@ -1122,7 +1122,7 @@
             ["söfnuður", "söfnuð", "söfnuði", "söfnaðar"],
             ["söfnuðir", "söfnuði", "söfnuðum", "söfnaða"]
           ],
-          "type": "n m"
+          "type": "n m3"
         },
         {
           "inOurLanguage": "cat",
@@ -1131,7 +1131,7 @@
             ["köttur", "kött", "ketti", "kattar"],
             ["kettir", "ketti", "köttum", "katta"]
           ],
-          "type": "n m"
+          "type": "n m3"
         },
         {
           "inOurLanguage": "fjord",
@@ -1140,7 +1140,7 @@
             ["fjörður", "fjörð", "firði", "fjarðar"],
             ["firðir", "firði", "fjörðum", "fjarða"]
           ],
-          "type": "n m"
+          "type": "n m3"
         },
         {
           "inOurLanguage": "spoon",
@@ -1149,7 +1149,7 @@
             ["spónn", "spón", "spæni", "spóns"],
             ["spænir", "spæni", "spónum", "spóna"]
           ],
-          "type": "n m"
+          "type": "n m3"
         },
         {
           "inOurLanguage": "son",
@@ -1158,7 +1158,7 @@
             ["sonur", "son", "syni", "sonar"],
             ["synir", "syni", "sonum", "sona"]
           ],
-          "type": "n m"
+          "type": "n m3"
         },
         {
           "inOurLanguage": "father",
@@ -1167,7 +1167,7 @@
             ["faðir", "föður", "föður", "föður(s)"],
             ["feður", "feður", "feðrum", "feðra"]
           ],
-          "type": "n m"
+          "type": "n m4"
         },
         {
           "inOurLanguage": "brother",
@@ -1176,7 +1176,7 @@
             ["bróðir", "bróður", "bróður", "bróður(s)"],
             ["bræður", "bræður", "bræðrum", "bræöra"]
           ],
-          "type": "n m"
+          "type": "n m4"
         },
         {
           "inOurLanguage": "foot",
@@ -1185,7 +1185,7 @@
             ["fótur", "fót", "fæti", "fótar"],
             ["fætur", "fætur", "fótum", "fóta"]
           ],
-          "type": "n m"
+          "type": "n m4"
         },
         {
           "inOurLanguage": "finger",
@@ -1194,7 +1194,7 @@
             ["fingur", "fingur", "fingri", "fingurs"],
             ["fingur", "fingur", "fingrum", "fingra"]
           ],
-          "type": "n m"
+          "type": "n m4"
         },
         {
           "inOurLanguage": "winter",
@@ -1203,7 +1203,7 @@
             ["vetur", "vetur", "vetri", "vetrar"],
             ["vetur", "vetur", "vetrum", "vetra"]
           ],
-          "type": "n m"
+          "type": "n m4"
         },
         {
           "inOurLanguage": "man",
@@ -1212,7 +1212,7 @@
             ["maður", "mann", "manni", "manns"],
             ["menn(ir)", "menn", "mönnum", "manna"]
           ],
-          "type": "n m"
+          "type": "n m4"
         },
         {
           "inOurLanguage": "cheek",
@@ -1221,7 +1221,7 @@
             ["kínn", "kínn", "kínn", "kínnar"],
             ["kínnar", "kínnar", "kínnum", "kínna"]
           ],
-          "type": "n f"
+          "type": "n f1"
         },
         {
           "inOurLanguage": "old woman",
@@ -1230,7 +1230,7 @@
             ["kerling", "kerlingu", "kerlingu", "kerlingar"],
             ["kerlingar", "kerlingar", "kerlingum", "kerlinga"]
           ],
-          "type": "n f"
+          "type": "n f1"
         },
         {
           "inOurLanguage": "liver",
@@ -1239,7 +1239,7 @@
             ["lifur", "lifur", "lifur", "lifrar"],
             ["lifrar", "lifrar", "lifrum", "lifra"]
           ],
-          "type": "n f"
+          "type": "n f1"
         },
         {
           "inOurLanguage": "Hildur",
@@ -1248,7 +1248,7 @@
             ["Hildur", "Hildi", "Hildi", "Hildar"],
             ["Hildar", "Hildar", "Hildum", "Hilda"]
           ],
-          "type": "n f"
+          "type": "n f1"
         },
         {
           "inOurLanguage": "heath, mountain",
@@ -1257,7 +1257,7 @@
             ["heiði", "heiði", "heiði", "heiðar"],
             ["heiðar", "heiðar", "heiðum", "heiða"]
           ],
-          "type": "n f"
+          "type": "n f1"
         },
         {
           "inOurLanguage": "river",
@@ -1266,7 +1266,7 @@
             ["á", "á", "á", "ár"],
             ["ár", "ár", "ám", "áa"]
           ],
-          "type": "n f"
+          "type": "n f1"
         },
         {
           "inOurLanguage": "station",
@@ -1275,7 +1275,7 @@
             ["stöd", "stöð", "stöð", "stöðvar"],
             ["stöðvar", "stöðvar", "stöðvum", "stöðva"]
           ],
-          "type": "n f"
+          "type": "n f1"
         },
         {
           "inOurLanguage": "shell",
@@ -1284,7 +1284,7 @@
             ["skel", "skel", "skel", "skeljar"],
             ["skeljar", "skeljar", "skeljum", "skelja"]
           ],
-          "type": "n f"
+          "type": "n f1"
         },
         {
           "inOurLanguage": "time",
@@ -1293,7 +1293,7 @@
             ["tíð", "tíð", "tíð", "tíðar"],
             ["tíðir", "tíðir", "tíðum", "tíða"]
           ],
-          "type": "n f"
+          "type": "n f2"
         },
         {
           "inOurLanguage": "gift",
@@ -1302,7 +1302,7 @@
             ["gjöf", "gjöf", "gjöf", "gjafar"],
             ["gjafir", "gjafir", "gjöfum", "gjafa"]
           ],
-          "type": "n f"
+          "type": "n f2"
         },
         {
           "inOurLanguage": "trade",
@@ -1311,7 +1311,7 @@
             ["verslun", "verslun", "verslun", "verslunar"],
             ["verslanir", "verslanir", "verslanum", "verslana"]
           ],
-          "type": "n f"
+          "type": "n f2"
         },
         {
           "inOurLanguage": "order",
@@ -1320,7 +1320,7 @@
             ["pöntun", "pöntun", "pöntun", "pöntunar"],
             ["pantanir", "pantanir", "pöntunum", "pantana"]
           ],
-          "type": "n f"
+          "type": "n f2"
         },
         {
           "inOurLanguage": "roast",
@@ -1329,7 +1329,7 @@
             ["steik", "steik", "steik", "steikar"],
             ["steikur", "steikur", "steikum", "steika"]
           ],
-          "type": "n f"
+          "type": "n f3"
         },
         {
           "inOurLanguage": "pint",
@@ -1338,7 +1338,7 @@
             ["mörk", "mörk", "mörk", "markar"],
             ["merkur", "merkur", "mörkum", "marka"]
           ],
-          "type": "n f"
+          "type": "n f3"
         },
         {
           "inOurLanguage": "book",
@@ -1347,7 +1347,7 @@
             ["bók", "bók", "bók", "bókar"],
             ["bækur", "bækur", "bókum", "bóka"]
           ],
-          "type": "n f"
+          "type": "n f3"
         },
         {
           "inOurLanguage": "bridge",
@@ -1356,7 +1356,7 @@
             ["brú", "brú", "brú", "brúar"],
             ["brýr", "brýr", "brúm", "brúa"]
           ],
-          "type": "n f"
+          "type": "n f3"
         },
         {
           "inOurLanguage": "cow",
@@ -1365,7 +1365,7 @@
             ["kýr", "kú", "kú", "kýr"],
             ["kýr", "kýr", "kúm", "kúa"]
           ],
-          "type": "n f"
+          "type": "n f3"
         },
         {
           "inOurLanguage": "mother",
@@ -1374,7 +1374,7 @@
             ["móðir", "móður", "móður", "móður"],
             ["mæður", "mæður", "mæðrum", "mæðra"]
           ],
-          "type": "n f"
+          "type": "n f3"
         },
         {
           "inOurLanguage": "table",
@@ -1441,7 +1441,7 @@
         },
         {
           "inOurLanguage": "poem",
-          "inTheirLanguage": "kvæöi, -s, -i",
+          "inTheirLanguage": "kvæði, -s, -i",
           "columns": [
             ["kvæði", "kvæði", "kvæði", "kvæði"],
             ["kvæði", "kvæði", "kvæðum", "kvæða"]
@@ -1464,7 +1464,7 @@
             ["tími", "tíma", "tíma", "tíma"],
             ["tímar", "tíma", "tímum", "tíma"]
           ],
-          "type": "n m"
+          "type": "n wm1"
         },
         {
           "inOurLanguage": "grandfather",
@@ -1473,7 +1473,7 @@
             ["afi", "afa", "afa", "afa"],
             ["afar", "afar", "öfum", "afa"]
           ],
-          "type": "n m"
+          "type": "n wm1"
         },
         {
           "inOurLanguage": "will",
@@ -1482,7 +1482,7 @@
             ["vilji", "vilja", "vilja", "vilja"],
             ["viljar", "vilja", "viljum", "vilja"]
           ],
-          "type": "n m"
+          "type": "n wm1"
         },
         {
           "inOurLanguage": "judge",
@@ -1491,7 +1491,7 @@
             ["dómari", "dómari", "dómari", "dómari"],
             ["dómarar", "dómarar", "dómurum", "dómara"]
           ],
-          "type": "n m"
+          "type": "n wm1"
         },
         {
           "inOurLanguage": "baker",
@@ -1500,7 +1500,7 @@
             ["bakarí", "bakara", "bakara", "bakara"],
             ["bakarar", "bakara", "bökurum", "bakara"]
           ],
-          "type": "n m"
+          "type": "n wm1"
         },
         {
           "inOurLanguage": "student",
@@ -1509,7 +1509,7 @@
             ["nemandi", "nemanda", "nemanda", "nemanda"],
             ["nemendur", "nemendur", "nemendum", "nemenda"]
           ],
-          "type": "n m"
+          "type": "n wm2"
         },
         {
           "inOurLanguage": "farmer",
@@ -1518,7 +1518,7 @@
             ["bóndi", "bónda", "bónda", "bónda"],
             ["bændur", "bændur", "bændum", "bænda"]
           ],
-          "type": "n m"
+          "type": "n wm2"
         },
         {
           "inOurLanguage": "tongue",
@@ -1527,7 +1527,7 @@
             ["tunga", "tungu", "tungu", "tungu"],
             ["tungur", "tungur", "tungum", "tugna"]
           ],
-          "type": "n f"
+          "type": "n wf1"
         },
         {
           "inOurLanguage": "story",
@@ -1536,7 +1536,7 @@
             ["saga", "sögu", "sögu", "sögu"],
             ["sögur", "sögur", "sögum", "sagna"]
           ],
-          "type": "n f"
+          "type": "n wf1"
         },
         {
           "inOurLanguage": "lily",
@@ -1545,7 +1545,7 @@
             ["lilja", "lilju", "lilju", "lilju"],
             ["liljur", "lilur", "lilum", "lilja"]
           ],
-          "type": "n f"
+          "type": "n wf1"
         },
         {
           "inOurLanguage": "grandmother",
@@ -1554,7 +1554,7 @@
             ["amma", "ömmu", "ömmu", "ömmu"],
             ["ömmur", "ömmur", "ömmum", "amma"]
           ],
-          "type": "n f"
+          "type": "n wf1"
         },
         {
           "inOurLanguage": "lie",
@@ -1563,7 +1563,7 @@
             ["lygi", "lygi", "lygi", "lygi"],
             ["lygar", "lygar", "lygum", "lyga"]
           ],
-          "type": "n f"
+          "type": "n wf2"
         },
         {
           "inOurLanguage": "life",
@@ -1572,7 +1572,7 @@
             ["æfi", "æfi", "æfi", "æfi"],
             ["æfir", "æfir", "æfum", "æfa"]
           ],
-          "type": "n f"
+          "type": "n wf2"
         },
         {
           "inOurLanguage": "learning, -logy",
@@ -1580,7 +1580,7 @@
           "columns": [
             ["fræði", "fræði", "fræði", "fræði"]
           ],
-          "type": "n f"
+          "type": "n wf2"
         },
         {
           "inOurLanguage": "eye",
@@ -1589,7 +1589,7 @@
             ["auga", "auga", "auga", "auga"],
             ["augu", "augu", "augum", "augna"]
           ],
-          "type": "n n"
+          "type": "n wn"
         },
         {
           "inOurLanguage": "heart",
@@ -1598,7 +1598,7 @@
             ["hjarta", "hjarta", "hjarta", "hjarta"],
             ["hjörtu", "hjörtu", "hjörtum", "hjartna"]
           ],
-          "type": "n n"
+          "type": "n wn"
         }
       ]
     },
@@ -1623,7 +1623,7 @@
               "hestanna"
             ]
           ],
-          "type": ""
+          "type": "n m"
         },
         {
           "inOurLanguage": "the place",
@@ -1642,7 +1642,7 @@
               "staðanna"
             ]
           ],
-          "type": ""
+          "type": "n m"
         },
         {
           "inOurLanguage": "the shoe",
