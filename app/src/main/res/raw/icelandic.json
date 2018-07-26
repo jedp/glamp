@@ -969,6 +969,87 @@
     },
 
     {
+      "title": "hver ert þú",
+      "words": [
+        {
+          "inOurLanguage": "How long have you been in Iceland?",
+          "inTheirLanguage": "Hvað ertu búin(n) að vera lenga í Íslandi?",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "I am a regular guy",
+          "inTheirLanguage": "Ég er bara venjulegur strákur",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Reykjavik is a small and beautiful city",
+          "inTheirLanguage": "Reykjavik er lítil en falleg borg",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Iceland; in Iceland",
+          "inTheirLanguage": "Ísland; á Íslandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "United States; in the United States",
+          "inTheirLanguage": "Bandaríkin; í Bandaríkjunum",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Denmark; in Denmark",
+          "inTheirLanguage": "Danmörk; í Danmörku",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "in England",
+          "inTheirLanguage": "á Englandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "France; in France",
+          "inTheirLanguage": "Frakkland; í Frakklandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Faroe Islands; in the Faroe Islands",
+          "inTheirLanguage": "Færeyjar; í Færeyjum",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Canada; in Canada",
+          "inTheirLanguage": "Kanada; í Kanada",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Finland; in Finland",
+          "inTheirLanguage": "Finnland; í Finnlandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Norway; in Norway",
+          "inTheirLanguage": "í Noregi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Russia; in Russia",
+          "inTheirLanguage": "Rússland; í Rússlandi",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Sweden; in Sweden",
+          "inTheirLanguage": "Svíþjóð; í Svíþjóð",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "Germany; in Germany",
+          "inTheirLanguage": "Þýskaland; í Þýskalandi",
+          "type": ""
+        }
+      ]
+    },
+
+    {
       "title": "nafnorð",
       "words": [
         {
@@ -1604,485 +1685,312 @@
     },
 
     {
-      "title": "ákveðni greinirinn",
+      "title": "lýsingarorð",
       "words": [
         {
-          "inOurLanguage": "the horse",
-          "inTheirLanguage": "",
-          "columns": [
-            [
-              "hesturinn",
-              "hestinn",
-              "hestinum",
-              "hestsins"
-            ],
-            [
-              "hestarnar",
-              "hestana",
-              "hestunum",
-              "hestanna"
-            ]
-          ],
-          "type": "n m"
+          "inOurLanguage": "white",
+          "inTheirLanguage": "hvítur, hvít, hvítt",
+          "type": "adj"
         },
         {
-          "inOurLanguage": "the place",
-          "inTheirLanguage": "",
-          "columns": [
-            [
-              "staðurinn",
-              "staðinn",
-              "staðnum",
-              "staðarins"
-            ],
-            [
-              "staðirnir",
-              "staðina",
-              "stöðunum",
-              "staðanna"
-            ]
-          ],
-          "type": "n m"
+          "inOurLanguage": "black",
+          "inTheirLanguage": "svartur, svört, svart",
+          "type": "adj"
         },
         {
-          "inOurLanguage": "the shoe",
-          "inTheirLanguage": "",
-          "columns": [
-            [
-              "skórinn",
-              "skóinn",
-              "skónum",
-              "skósins"
-            ],
-            [
-              "skórnir",
-              "skóna",
-              "skónum",
-              "skónna"
-            ]
-          ],
-          "type": "n m"
+          "inOurLanguage": "red",
+          "inTheirLanguage": "rauður, rauð, rautt",
+          "type": "adj"
         },
         {
-          "inOurLanguage": "the time, hour",
-          "inTheirLanguage": "",
-          "columns": [
-            [
-              "tíminn",
-              "tímann",
-              "tímanum",
-              "tímans"
-            ],
-            [
-              "tímarnir",
-              "tímana",
-              "tímunum",
-              "tímanna"
-            ]
-          ],
-          "type": "n m"
+          "inOurLanguage": "yellow",
+          "inTheirLanguage": "gulur, gul, gult",
+          "type": "adj"
         },
         {
-          "inOurLanguage": "the cheek",
-          "inTheirLanguage": "",
-          "columns": [
-            [
-              "kinnin",
-              "kinnina",
-              "kinninni",
-              "kinnarinnar"
-            ],
-            [
-              "kinnarnar",
-              "kinnarnar",
-              "kinnunum",
-              "kinnanna"
-            ]
-          ],
-          "type": "n f"
+          "inOurLanguage": "orange (color)",
+          "inTheirLanguage": "appelsínugulur, -gul, -gult",
+          "type": "adj"
         },
         {
-          "inOurLanguage": "the river",
-          "inTheirLanguage": "",
-          "columns": [
-            [
-              "áin",
-              "ána",
-              "ánni",
-              "árinnar"
-            ],
-            [
-              "árnar",
-              "árnar",
-              "ánum",
-              "ánna"
-            ]
-          ],
-          "type": "n f"
+          "inOurLanguage": "pink",
+          "inTheirLanguage": "bleikur, bleik, bleikt",
+          "type": "adj"
         },
         {
-          "inOurLanguage": "the liver",
-          "inTheirLanguage": "",
-          "columns": [
-            [
-              "lifrin",
-              "lifrinna",
-              "lifrinni",
-              "lifrarinnar"
-            ],
-            [
-              "lifrarnar",
-              "lifrarnar",
-              "lifrunum",
-              "lifranna"
-            ]
-          ],
-          "type": "n f"
+          "inOurLanguage": "blue",
+          "inTheirLanguage": "blár, blá, blátt",
+          "type": "adj"
         },
         {
-          "inOurLanguage": "the lily",
-          "inTheirLanguage": "",
-          "columns": [
-            [
-              "liljan",
-              "liljuna",
-              "liljunni",
-              "liljunnar"
-            ],
-            [
-              "liljurnar",
-              "liljurnar",
-              "liljjunum",
-              "liljanna"
-            ]
-          ],
-          "type": "n f"
+          "inOurLanguage": "purple",
+          "inTheirLanguage": "fjólublár, fjólublá, fjólublátt",
+          "type": "adj"
         },
         {
-          "inOurLanguage": "the child",
-          "inTheirLanguage": "",
-          "columns": [
-            [
-              "barnið",
-              "barnið",
-              "barninu",
-              "barnsins"
-            ],
-            [
-              "börnin",
-              "börnin",
-              "börnunum",
-              "barnanna"
-            ]
-          ],
-          "type": "n n"
+          "inOurLanguage": "gray",
+          "inTheirLanguage": "grár, grá, grátt",
+          "type": "adj"
         },
         {
-          "inOurLanguage": "the tree",
-          "inTheirLanguage": "",
-          "columns": [
-            [
-              "tréð",
-              "tréð",
-              "trénu",
-              "trésins"
-            ],
-            [
-              "trén",
-              "trén",
-              "trjánum",
-              "trjánna"
-            ]
-          ],
-          "type": "n f"
+          "inOurLanguage": "brown",
+          "inTheirLanguage": "brúnn, brún, brúnt",
+          "type": "adj"
         },
         {
-          "inOurLanguage": "the tea",
-          "inTheirLanguage": "",
+          "inOurLanguage": "green",
+          "inTheirLanguage": "grænn, græn, grænt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "Icelandic",
+          "inTheirLanguage": "íslenskur, -, -t",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "boring",
+          "inTheirLanguage": "leiðinlegur, leiðinleg, leiðinlegt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "hungry",
+          "inTheirLanguage": "svangur, svöng, svangt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "lazy",
+          "inTheirLanguage": "latur, löt, latt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "happy",
+          "inTheirLanguage": "hamingjusam, hamingjusöm, hamingjusamt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "cold",
+          "inTheirLanguage": "kaldur, köld, kalt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "darkhaired",
+          "inTheirLanguage": "dökkhærður, dökkhærð, dökkhært",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "big",
+          "inTheirLanguage": "stór, stór, stórt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "clear",
+          "inTheirLanguage": "skýr, skýr, skýrt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "polite",
+          "inTheirLanguage": "kurteis, kurteis, kurteist",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "healthy, in good spirits",
+          "inTheirLanguage": "hress, hress, hresst",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "warm",
+          "inTheirLanguage": "hlýr, hlý, hlýtt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "high",
+          "inTheirLanguage": "hár, há, hátt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "shy",
+          "inTheirLanguage": "feiminn, feimin, feimið",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "in love",
+          "inTheirLanguage": "ástfanginn, ástfangin, ástfangið",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "little",
+          "inTheirLanguage": "lítill, lítil, lítið",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "great, a lot",
+          "inTheirLanguage": "mikill, mikil, mikið",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "old",
+          "inTheirLanguage": "gamall, gömul, gamalt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "alone",
+          "inTheirLanguage": "einsamall, -sömul, -samalt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "one",
+          "inTheirLanguage": "einn, ein, eitt",
           "columns": [
             [
-              "teið",
-              "teið",
-              "teinu",
-              "tesins"
-            ],
-            [
+              "einn",
+              "einn",
+              "einum",
+              "eins",
               "",
+              "einir",
+              "einra",
+              "einum",
+              "einna"
+            ],
+            [
+              "ein",
+              "eina",
+              "einni",
+              "einnar",
               "",
+              "einar",
+              "einar",
+              "einum",
+              "einna"
+            ],
+            [
+              "eitt",
+              "eitt",
+              "einu",
+              "eins",
               "",
-              ""
+              "ein",
+              "ein",
+              "einum",
+              "einna"
             ]
           ],
           "type": ""
         },
         {
-          "inOurLanguage": "the nest",
-          "inTheirLanguage": "",
+          "inOurLanguage": "two",
+          "inTheirLanguage": "tveir",
           "columns": [
             [
-              "hreiðrið",
-              "hreiðrið",
-              "hreiðrinu",
-              "hreiðursins"
+              "tveir",
+              "two",
+              "tveim",
+              "tveggja"
             ],
             [
-              "hreiðrin",
-              "hreiðrin",
-              "hreiðrunum",
-              "hreiðranna"
+              "tvær",
+              "tvær",
+              "tveim(ur)",
+              "tveggja"
+            ],
+            [
+              "tvö",
+              "tvö",
+              "tveim(ur)",
+              "tveggja"
             ]
           ],
-          "type": "n n"
+          "type": ""
         },
         {
-          "inOurLanguage": "the eyes",
-          "inTheirLanguage": "",
+          "inOurLanguage": "three",
+          "inTheirLanguage": "ðrír, ðrjár, ðrjú",
           "columns": [
             [
-              "augað",
-              "augað",
-              "auganu",
-              "augans"
+              "þrír",
+              "þrjá",
+              "þrem(ur)",
+              "þriggja"
             ],
             [
-              "augun",
-              "augun",
-              "augunum",
-              "augnanna"
+              "þrjár",
+              "þrjár",
+              "þrem(ur)",
+              "þriggja"
+            ],
+            [
+              "þrjú",
+              "þrjú",
+              "þrem(ur)",
+              "þriggja"
             ]
           ],
-          "type": "n n"
+          "type": ""
         },
         {
-          "inOurLanguage": "the man",
-          "inTheirLanguage": "",
-          "columns": [
-            ["maðurinn", "manninn", "manninum", "mannsins"],
-            ["mennirnir", "mennina", "mönnunum", "mannanna"]
-          ],
-          "type": "n m"
-        }
-      ]
-    },
-
-    {
-      "title": "sagnir",
-      "words": [
-        {
-          "inOurLanguage": "to burst",
-          "inTheirLanguage": "bresta, brest, brast, brustum, brostinn",
+          "inOurLanguage": "four",
+          "inTheirLanguage": "fjórir, fjórar, fjögur",
           "columns": [
             [
-              "brest",
-              "brestur",
-              "brest",
-              "brestum",
-              "brestið",
-              "bresta",
-              "",
-              "brestandi"
+              "fjórir",
+              "fjórar",
+              "fjórum",
+              "fjögra"
             ],
             [
-              "brast",
-              "brast",
-              "brast",
-              "brustum",
-              "brustuð",
-              "brustu",
-              "",
-              "brestinn"
+              "fjórar",
+              "fjórar",
+              "fjórum",
+              "fjögra"
+            ],
+            [
+              "fjögur",
+              "fjögur",
+              "fjórum",
+              "fjögra"
             ]
           ],
-          "type": "v"
+          "type": ""
         },
         {
-          "inOurLanguage": "to bear, carry; wear",
-          "inTheirLanguage": "bera, ber, bar, bórum, borinn",
+          "inOurLanguage": "second, other",
+          "inTheirLanguage": "annar, önnur, annað",
           "columns": [
             [
-              "ber",
-              "berð",
-              "ber",
-              "beri",
-              "berir",
-              "beri",
+              "annar",
+              "annan",
+              "öðrum",
+              "annars",
               "",
-              "berandi"
+              "aðrir",
+              "aðra",
+              "öðrum",
+              "annara"
             ],
             [
-              "bar",
-              "barst",
-              "bar",
-              "bárum",
-              "báruð",
-              "báru",
+              "önnur",
+              "aðra",
+              "annari",
+              "annarar",
               "",
-              "borinn"
-            ]
-          ],
-          "type": "v"
-        },
-        {
-          "inOurLanguage": "to catch, hold; buy; take (time)",
-          "inTheirLanguage": "taka, tek, tók, tókum, tekinn",
-          "columns": [
-            [
-              "tek",
-              "tekur",
-              "tekur",
-              "tökum",
-              "takið",
-              "taka",
-              "",
-              "takandi"
+              "aðrar",
+              "aðrar",
+              "öðrum",
+              "annara"
             ],
             [
-              "tók",
-              "tókast",
-              "tók",
-              "tókum",
-              "tókuð",
-              "tóku",
+              "annað",
+              "annað",
+              "öðru",
+              "annars",
               "",
-              "tekinn"
+              "önnur",
+              "önnur",
+              "öðrum",
+              "annara"
             ]
           ],
-          "type": "v"
-        },
-        {
-          "inOurLanguage": "to choose, select",
-          "inTheirLanguage": "kjósa, kýs, kaus, kusum, kosinn",
-          "columns": [
-            [
-              "kýs",
-              "kýst",
-              "kýs",
-              "kjósum",
-              "kjósid",
-              "kjósa",
-              "",
-              "kjósandi"
-            ],
-            [
-              "kaus",
-              "kaust",
-              "kaus",
-              "kusum",
-              "kusuð",
-              "kusu",
-              "",
-              "kosinn"
-            ]
-          ],
-          "type": "v"
-        },
-        {
-          "inOurLanguage": "to shine, gleam",
-          "inTheirLanguage": "skína, skín, skein, skínum, skininn",
-          "columns": [
-            [
-              "skín",
-              "skín",
-              "skín",
-              "skínum",
-              "skínið",
-              "skína",
-              "",
-              "skínandi"
-            ],
-            [
-              "skein",
-              "skeinst",
-              "skein",
-              "skinum",
-              "skinuð",
-              "skinu",
-              "",
-              "skininn"
-            ]
-          ],
-          "type": "v"
-        },
-        {
-          "inOurLanguage": "to have (aux)",
-          "inTheirLanguage": "hafa; hef, hefi; hafði, hafður",
-          "columns": [
-            [
-              "hef",
-              "hefur",
-              "hefur",
-              "höfum",
-              "hafið",
-              "hafa",
-              "",
-              ""
-            ],
-            [
-              "hafði",
-              "hafðir",
-              "hafði",
-              "höfðum",
-              "höfðuð",
-              "höfðu",
-              "",
-              ""
-            ]
-          ],
-          "type": "v"
-        },
-        {
-          "inOurLanguage": "to be (aux)",
-          "inTheirLanguage": "vera; er, ert; var; vorum, vórum; verið",
-          "columns": [
-            [
-              "er",
-              "ert",
-              "er",
-              "erum",
-              "eruð",
-              "eru",
-              "",
-              ""
-            ],
-            [
-              "var",
-              "varst",
-              "var",
-              "vorum",
-              "voruð",
-              "voru",
-              "",
-              ""
-            ]
-          ],
-          "type": "v"
-        },
-        {
-          "inOurLanguage": "to give",
-          "inTheirLanguage": "gefa, gef, gaf, gáfum, gefinn (-ið)",
-          "columns": [
-            [
-              "gef",
-              "gefur",
-              "gefur",
-              "gefum",
-              "gefið",
-              "gefa",
-              "",
-              "gefandi"
-            ],
-            [
-              "gaf",
-              "gafst",
-              "gaf",
-              "gáfum",
-              "gáfuð",
-              "gáfu",
-              "",
-              "gefinn"
-            ]
-          ],
-          "type": "v"
+          "type": ""
         }
       ]
     },
@@ -2128,7 +2036,6 @@
           ],
           "type": "pron"
         },
-
         {
           "inOurLanguage": "He, she, it",
           "inTheirLanguage": "hann, hún, það",
@@ -2529,398 +2436,489 @@
           ],
           "type": "pron"
         }
-
       ]
     },
 
     {
-      "title": "lýsingarorð",
+      "title": "ákveðni greinirinn",
       "words": [
         {
-          "inOurLanguage": "white",
-          "inTheirLanguage": "hvítur, hvít, hvítt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "black",
-          "inTheirLanguage": "svartur, svört, svart",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "red",
-          "inTheirLanguage": "rauður, rauð, rautt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "yellow",
-          "inTheirLanguage": "gulur, gul, gult",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "orange (color)",
-          "inTheirLanguage": "appelsínugulur, -gul, -gult",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "pink",
-          "inTheirLanguage": "bleikur, bleik, bleikt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "blue",
-          "inTheirLanguage": "blár, blá, blátt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "purple",
-          "inTheirLanguage": "fjólublár, fjólublá, fjólublátt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "gray",
-          "inTheirLanguage": "grár, grá, grátt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "brown",
-          "inTheirLanguage": "brúnn, brún, brúnt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "green",
-          "inTheirLanguage": "grænn, græn, grænt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "Icelandic",
-          "inTheirLanguage": "íslenskur, -, -t",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "boring",
-          "inTheirLanguage": "leiðinlegur, leiðinleg, leiðinlegt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "hungry",
-          "inTheirLanguage": "svangur, svöng, svangt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "lazy",
-          "inTheirLanguage": "latur, löt, latt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "happy",
-          "inTheirLanguage": "hamingjusam, hamingjusöm, hamingjusamt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "cold",
-          "inTheirLanguage": "kaldur, köld, kalt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "darkhaired",
-          "inTheirLanguage": "dökkhærður, dökkhærð, dökkhært",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "big",
-          "inTheirLanguage": "stór, stór, stórt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "clear",
-          "inTheirLanguage": "skýr, skýr, skýrt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "polite",
-          "inTheirLanguage": "kurteis, kurteis, kurteist",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "healthy, in good spirits",
-          "inTheirLanguage": "hress, hress, hresst",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "warm",
-          "inTheirLanguage": "hlýr, hlý, hlýtt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "high",
-          "inTheirLanguage": "hár, há, hátt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "shy",
-          "inTheirLanguage": "feiminn, feimin, feimið",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "in love",
-          "inTheirLanguage": "ástfanginn, ástfangin, ástfangið",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "little",
-          "inTheirLanguage": "lítill, lítil, lítið",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "great, a lot",
-          "inTheirLanguage": "mikill, mikil, mikið",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "old",
-          "inTheirLanguage": "gamall, gömul, gamalt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "alone",
-          "inTheirLanguage": "einsamall, -sömul, -samalt",
-          "type": "adj"
-        },
-        {
-          "inOurLanguage": "one",
-          "inTheirLanguage": "einn, ein, eitt",
+          "inOurLanguage": "the horse",
+          "inTheirLanguage": "",
           "columns": [
             [
-              "einn",
-              "einn",
-              "einum",
-              "eins",
-              "",
-              "einir",
-              "einra",
-              "einum",
-              "einna"
+              "hesturinn",
+              "hestinn",
+              "hestinum",
+              "hestsins"
             ],
             [
-              "ein",
-              "eina",
-              "einni",
-              "einnar",
-              "",
-              "einar",
-              "einar",
-              "einum",
-              "einna"
+              "hestarnar",
+              "hestana",
+              "hestunum",
+              "hestanna"
+            ]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "the place",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "staðurinn",
+              "staðinn",
+              "staðnum",
+              "staðarins"
             ],
             [
-              "eitt",
-              "eitt",
-              "einu",
-              "eins",
+              "staðirnir",
+              "staðina",
+              "stöðunum",
+              "staðanna"
+            ]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "the shoe",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "skórinn",
+              "skóinn",
+              "skónum",
+              "skósins"
+            ],
+            [
+              "skórnir",
+              "skóna",
+              "skónum",
+              "skónna"
+            ]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "the time, hour",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "tíminn",
+              "tímann",
+              "tímanum",
+              "tímans"
+            ],
+            [
+              "tímarnir",
+              "tímana",
+              "tímunum",
+              "tímanna"
+            ]
+          ],
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "the cheek",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "kinnin",
+              "kinnina",
+              "kinninni",
+              "kinnarinnar"
+            ],
+            [
+              "kinnarnar",
+              "kinnarnar",
+              "kinnunum",
+              "kinnanna"
+            ]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "the river",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "áin",
+              "ána",
+              "ánni",
+              "árinnar"
+            ],
+            [
+              "árnar",
+              "árnar",
+              "ánum",
+              "ánna"
+            ]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "the liver",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "lifrin",
+              "lifrinna",
+              "lifrinni",
+              "lifrarinnar"
+            ],
+            [
+              "lifrarnar",
+              "lifrarnar",
+              "lifrunum",
+              "lifranna"
+            ]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "the lily",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "liljan",
+              "liljuna",
+              "liljunni",
+              "liljunnar"
+            ],
+            [
+              "liljurnar",
+              "liljurnar",
+              "liljjunum",
+              "liljanna"
+            ]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "the child",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "barnið",
+              "barnið",
+              "barninu",
+              "barnsins"
+            ],
+            [
+              "börnin",
+              "börnin",
+              "börnunum",
+              "barnanna"
+            ]
+          ],
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "the tree",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "tréð",
+              "tréð",
+              "trénu",
+              "trésins"
+            ],
+            [
+              "trén",
+              "trén",
+              "trjánum",
+              "trjánna"
+            ]
+          ],
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "the tea",
+          "inTheirLanguage": "",
+          "columns": [
+            [
+              "teið",
+              "teið",
+              "teinu",
+              "tesins"
+            ],
+            [
               "",
-              "ein",
-              "ein",
-              "einum",
-              "einna"
+              "",
+              "",
+              ""
             ]
           ],
           "type": ""
         },
         {
-          "inOurLanguage": "two",
-          "inTheirLanguage": "tveir",
+          "inOurLanguage": "the nest",
+          "inTheirLanguage": "",
           "columns": [
             [
-              "tveir",
-              "two",
-              "tveim",
-              "tveggja"
+              "hreiðrið",
+              "hreiðrið",
+              "hreiðrinu",
+              "hreiðursins"
             ],
             [
-              "tvær",
-              "tvær",
-              "tveim(ur)",
-              "tveggja"
-            ],
-            [
-              "tvö",
-              "tvö",
-              "tveim(ur)",
-              "tveggja"
+              "hreiðrin",
+              "hreiðrin",
+              "hreiðrunum",
+              "hreiðranna"
             ]
           ],
-          "type": ""
+          "type": "n n"
         },
         {
-          "inOurLanguage": "three",
-          "inTheirLanguage": "ðrír, ðrjár, ðrjú",
+          "inOurLanguage": "the eyes",
+          "inTheirLanguage": "",
           "columns": [
             [
-              "þrír",
-              "þrjá",
-              "þrem(ur)",
-              "þriggja"
+              "augað",
+              "augað",
+              "auganu",
+              "augans"
             ],
             [
-              "þrjár",
-              "þrjár",
-              "þrem(ur)",
-              "þriggja"
-            ],
-            [
-              "þrjú",
-              "þrjú",
-              "þrem(ur)",
-              "þriggja"
+              "augun",
+              "augun",
+              "augunum",
+              "augnanna"
             ]
           ],
-          "type": ""
+          "type": "n n"
         },
         {
-          "inOurLanguage": "four",
-          "inTheirLanguage": "fjórir, fjórar, fjögur",
+          "inOurLanguage": "the man",
+          "inTheirLanguage": "",
           "columns": [
-            [
-              "fjórir",
-              "fjórar",
-              "fjórum",
-              "fjögra"
-            ],
-            [
-              "fjórar",
-              "fjórar",
-              "fjórum",
-              "fjögra"
-            ],
-            [
-              "fjögur",
-              "fjögur",
-              "fjórum",
-              "fjögra"
-            ]
+            ["maðurinn", "manninn", "manninum", "mannsins"],
+            ["mennirnir", "mennina", "mönnunum", "mannanna"]
           ],
-          "type": ""
-        },
-        {
-          "inOurLanguage": "second, other",
-          "inTheirLanguage": "annar, önnur, annað",
-          "columns": [
-            [
-              "annar",
-              "annan",
-              "öðrum",
-              "annars",
-              "",
-              "aðrir",
-              "aðra",
-              "öðrum",
-              "annara"
-            ],
-            [
-              "önnur",
-              "aðra",
-              "annari",
-              "annarar",
-              "",
-              "aðrar",
-              "aðrar",
-              "öðrum",
-              "annara"
-            ],
-            [
-              "annað",
-              "annað",
-              "öðru",
-              "annars",
-              "",
-              "önnur",
-              "önnur",
-              "öðrum",
-              "annara"
-            ]
-          ],
-          "type": ""
+          "type": "n m"
         }
       ]
     },
 
     {
-      "title": "hver ert þú",
+      "title": "sagnir",
       "words": [
         {
-          "inOurLanguage": "How long have you been in Iceland?",
-          "inTheirLanguage": "Hvað ertu búin(n) að vera lenga í Íslandi?",
-          "type": ""
+          "inOurLanguage": "to burst",
+          "inTheirLanguage": "bresta, brest, brast, brustum, brostinn",
+          "columns": [
+            [
+              "brest",
+              "brestur",
+              "brest",
+              "brestum",
+              "brestið",
+              "bresta",
+              "",
+              "brestandi"
+            ],
+            [
+              "brast",
+              "brast",
+              "brast",
+              "brustum",
+              "brustuð",
+              "brustu",
+              "",
+              "brestinn"
+            ]
+          ],
+          "type": "v3"
         },
         {
-          "inOurLanguage": "I am a regular guy",
-          "inTheirLanguage": "Ég er bara venjulegur strákur",
-          "type": ""
+          "inOurLanguage": "to bear, carry; wear",
+          "inTheirLanguage": "bera, ber, bar, bórum, borinn",
+          "columns": [
+            [
+              "ber",
+              "berð",
+              "ber",
+              "beri",
+              "berir",
+              "beri",
+              "",
+              "berandi"
+            ],
+            [
+              "bar",
+              "barst",
+              "bar",
+              "bárum",
+              "báruð",
+              "báru",
+              "",
+              "borinn"
+            ]
+          ],
+          "type": "v4"
         },
         {
-          "inOurLanguage": "Reykjavik is a small and beautiful city",
-          "inTheirLanguage": "Reykjavik er lítil en falleg borg",
-          "type": ""
+          "inOurLanguage": "to catch, hold; buy; take (time)",
+          "inTheirLanguage": "taka, tek, tók, tókum, tekinn",
+          "columns": [
+            [
+              "tek",
+              "tekur",
+              "tekur",
+              "tökum",
+              "takið",
+              "taka",
+              "",
+              "takandi"
+            ],
+            [
+              "tók",
+              "tókast",
+              "tók",
+              "tókum",
+              "tókuð",
+              "tóku",
+              "",
+              "tekinn"
+            ]
+          ],
+          "type": "v6"
         },
         {
-          "inOurLanguage": "Iceland; in Iceland",
-          "inTheirLanguage": "Ísland; á Íslandi",
-          "type": ""
+          "inOurLanguage": "to choose, select",
+          "inTheirLanguage": "kjósa, kýs, kaus, kusum, kosinn",
+          "columns": [
+            [
+              "kýs",
+              "kýst",
+              "kýs",
+              "kjósum",
+              "kjósid",
+              "kjósa",
+              "",
+              "kjósandi"
+            ],
+            [
+              "kaus",
+              "kaust",
+              "kaus",
+              "kusum",
+              "kusuð",
+              "kusu",
+              "",
+              "kosinn"
+            ]
+          ],
+          "type": "v2"
         },
         {
-          "inOurLanguage": "United States; in the United States",
-          "inTheirLanguage": "Bandaríkin; í Bandaríkjunum",
-          "type": ""
+          "inOurLanguage": "to shine, gleam",
+          "inTheirLanguage": "skína, skín, skein, skínum, skininn",
+          "columns": [
+            [
+              "skín",
+              "skín",
+              "skín",
+              "skínum",
+              "skínið",
+              "skína",
+              "",
+              "skínandi"
+            ],
+            [
+              "skein",
+              "skeinst",
+              "skein",
+              "skinum",
+              "skinuð",
+              "skinu",
+              "",
+              "skininn"
+            ]
+          ],
+          "type": "v1"
         },
         {
-          "inOurLanguage": "Denmark; in Denmark",
-          "inTheirLanguage": "Danmörk; í Danmörku",
-          "type": ""
+          "inOurLanguage": "to have (aux)",
+          "inTheirLanguage": "hafa; hef, hefi; hafði, hafður",
+          "columns": [
+            [
+              "hef",
+              "hefur",
+              "hefur",
+              "höfum",
+              "hafið",
+              "hafa",
+              "",
+              ""
+            ],
+            [
+              "hafði",
+              "hafðir",
+              "hafði",
+              "höfðum",
+              "höfðuð",
+              "höfðu",
+              "",
+              ""
+            ]
+          ],
+          "type": "wv irr (3, 1)"
         },
         {
-          "inOurLanguage": "in England",
-          "inTheirLanguage": "á Englandi",
-          "type": ""
+          "inOurLanguage": "to be (aux)",
+          "inTheirLanguage": "vera; er, ert; var; vorum, vórum; verið",
+          "columns": [
+            [
+              "er",
+              "ert",
+              "er",
+              "erum",
+              "eruð",
+              "eru",
+              "",
+              ""
+            ],
+            [
+              "var",
+              "varst",
+              "var",
+              "vorum",
+              "voruð",
+              "voru",
+              "",
+              ""
+            ]
+          ],
+          "type": "v irr"
         },
         {
-          "inOurLanguage": "France; in France",
-          "inTheirLanguage": "Frakkland; í Frakklandi",
-          "type": ""
-        },
-        {
-          "inOurLanguage": "Faroe Islands; in the Faroe Islands",
-          "inTheirLanguage": "Færeyjar; í Færeyjum",
-          "type": ""
-        },
-        {
-          "inOurLanguage": "Canada; in Canada",
-          "inTheirLanguage": "Kanada; í Kanada",
-          "type": ""
-        },
-        {
-          "inOurLanguage": "Finland; in Finland",
-          "inTheirLanguage": "Finnland; í Finnlandi",
-          "type": ""
-        },
-        {
-          "inOurLanguage": "Norway; in Norway",
-          "inTheirLanguage": "í Noregi",
-          "type": ""
-        },
-        {
-          "inOurLanguage": "Russia; in Russia",
-          "inTheirLanguage": "Rússland; í Rússlandi",
-          "type": ""
-        },
-        {
-          "inOurLanguage": "Sweden; in Sweden",
-          "inTheirLanguage": "Svíþjóð; í Svíþjóð",
-          "type": ""
-        },
-        {
-          "inOurLanguage": "Germany; in Germany",
-          "inTheirLanguage": "Þýskaland; í Þýskalandi",
-          "type": ""
+          "inOurLanguage": "to give",
+          "inTheirLanguage": "gefa, gef, gaf, gáfum, gefinn (-ið)",
+          "columns": [
+            [
+              "gef",
+              "gefur",
+              "gefur",
+              "gefum",
+              "gefið",
+              "gefa",
+              "",
+              "gefandi"
+            ],
+            [
+              "gaf",
+              "gafst",
+              "gaf",
+              "gáfum",
+              "gáfuð",
+              "gáfu",
+              "",
+              "gefinn"
+            ]
+          ],
+          "type": "v5"
         }
       ]
     }
