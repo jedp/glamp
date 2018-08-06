@@ -964,6 +964,105 @@
           "inOurLanguage": "on monday; tuesday; ...",
           "inTheirLanguage": "á manudaginn; þriðjudagur; ...",
           "type": "n m"
+        },
+        {
+          "inOurLanguage": "to work (present tense)",
+          "inTheirLanguage": "að vinna",
+          "columns": [
+            ["vinn", "vinnur", "vinnur", "", "vinnum", "vinnið", "vinna", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 3"
+        },
+        {
+          "inOurLanguage": "to understand (present tense)",
+          "inTheirLanguage": "að skilja",
+          "columns": [
+            ["skil", "skilur", "skilur", "", "skiljum", "skiljið", "skilja", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 3"
+        },
+        {
+          "inOurLanguage": "to walk (present tense)",
+          "inTheirLanguage": "að ganga",
+          "columns": [
+            ["geng", "gengur", "gengur", "", "göngum", "gangið", "ganga", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 3"
+        },
+        {
+          "inOurLanguage": "to read (present tense)",
+          "inTheirLanguage": "að lesa",
+          "columns": [
+            ["les", "lest", "les", "", "lesum", "lesið", "lesa", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 4"
+        },
+        {
+          "inOurLanguage": "to ask (present tense)",
+          "inTheirLanguage": "að spyrja",
+          "columns": [
+            ["spyr", "spyrð", "spyr", "", "spyrjum", "spyrjið", "spyrja", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 4"
+        },
+        {
+          "inOurLanguage": "to go (present tense)",
+          "inTheirLanguage": "að fara",
+          "columns": [
+            ["fer", "ferð", "fer", "", "förum", "farið", "fara", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 4"
+        },
+        {
+          "inOurLanguage": "to wash (present tense)",
+          "inTheirLanguage": "að þvo",
+          "columns": [
+            ["þvæ", "þværð", "þvær", "", "þvoum", "þvoið", "þvo", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 5"
+        },
+        {
+          "inOurLanguage": "to get (present tense)",
+          "inTheirLanguage": "að fá",
+          "columns": [
+            ["fæ", "færð", "fær", "", "fáum", "fáið", "fá", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 5"
+        },
+        {
+          "inOurLanguage": "to live (present tense)",
+          "inTheirLanguage": "að búa",
+          "columns": [
+            ["bý", "býrð", "býr", "", "búum", "búið", "búa", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 5"
+        },
+        {
+          "inOurLanguage": "to say (present tense)",
+          "inTheirLanguage": "að segja",
+          "columns": [
+            ["segi", "segir", "segir", "", "segjum", "segið", "segja", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 2"
+        },
+        {
+          "inOurLanguage": "to smoke (present tense)",
+          "inTheirLanguage": "að reykja",
+          "columns": [
+            ["reyki", "reykur", "reyjur", "", "reykjum", "reykið", "reykja", ""],
+            ["", "", "", "", "", "", "", ""]
+          ],
+          "type": "v 2"
         }
       ]
     },
