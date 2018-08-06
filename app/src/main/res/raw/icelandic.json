@@ -1149,6 +1149,222 @@
     },
 
     {
+      "title": "ferðamenn",
+      "words": [
+        {
+          "inOurLanguage": "to check, look into",
+          "inTheirLanguage": "að athuga",
+          "type": "v 1"
+        },
+        {
+          "inOurLanguage": "again",
+          "inTheirLanguage": "aftur",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "of course",
+          "inTheirLanguage": "auðvitað",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "interesting (n pl)",
+          "inTheirLanguage": "áhugaverð",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "wait a moment",
+          "inTheirLanguage": "bíddu nú við",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "book store",
+          "inTheirLanguage": "bókabúð",
+          "type": "n f2"
+        },
+        {
+          "inOurLanguage": "store",
+          "inTheirLanguage": "búð",
+          "type": "n f2"
+        },
+        {
+          "inOurLanguage": "actually",
+          "inTheirLanguage": "eiginlega",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "clothing store",
+          "inTheirLanguage": "fatabúð",
+          "type": "n f2"
+        },
+        {
+          "inOurLanguage": "trip",
+          "inTheirLanguage": "ferð, -ar, -ir",
+          "type": "n f2"
+        },
+        {
+          "inOurLanguage": "tourist",
+          "inTheirLanguage": "ferðamaður",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "parents",
+          "inTheirLanguage": "foreldrar",
+          "type": "n m pl"
+        },
+        {
+          "inOurLanguage": "rather",
+          "inTheirLanguage": "frekar",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "to forget",
+          "inTheirLanguage": "að gleyma",
+          "type": "v 2"
+        },
+        {
+          "inOurLanguage": "to think, guess",
+          "inTheirLanguage": "að halda, ég held",
+          "type": "v 3"
+        },
+        {
+          "inOurLanguage": "manuscript",
+          "inTheirLanguage": "handrit, -s, -",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "horseback",
+          "inTheirLanguage": "hestbak",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "to go horseback riding",
+          "inTheirLanguage": "að fara á hestbak",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "scared",
+          "inTheirLanguage": "hræddur, hrædd, hrætt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "idea",
+          "inTheirLanguage": "hugmynd, -ar, -ir",
+          "type": "n f2"
+        },
+        {
+          "inOurLanguage": "whale watching",
+          "inTheirLanguage": "hvalaskoðdun",
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "The greater Reykjavík area",
+          "inTheirLanguage": "höfuðborgarsvæðið",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "to cost",
+          "inTheirLanguage": "að kosta",
+          "type": "v 1"
+        },
+        {
+          "inOurLanguage": "mom",
+          "inTheirLanguage": "mamma",
+          "type": "n f"
+        },
+        {
+          "inOurLanguage": "downtown",
+          "inTheirLanguage": "miðbær, -bæjar, -bæir",
+          "type": "n m2"
+        },
+        {
+          "inOurLanguage": "much (in comparatives)",
+          "inTheirLanguage": "miklu",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "souvenir shop",
+          "inTheirLanguage": "minjagripabúð",
+          "type": "n f2"
+        },
+        {
+          "inOurLanguage": "smaller",
+          "inTheirLanguage": "minni",
+          "type": "adj w2"
+        },
+        {
+          "inOurLanguage": "naturally, of course",
+          "inTheirLanguage": "náttúralega",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "enough",
+          "inTheirLanguage": "nóg",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "dad",
+          "inTheirLanguage": "pabbi",
+          "type": "n m"
+        },
+        {
+          "inOurLanguage": "museum",
+          "inTheirLanguage": "safn, -s, söfn",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "still",
+          "inTheirLanguage": "samt",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "true",
+          "inTheirLanguage": "sannur, sönn, satt",
+          "type": "adj"
+        },
+        {
+          "inOurLanguage": "to look at",
+          "inTheirLanguage": "að skoða",
+          "type": "v 1"
+        },
+        {
+          "inOurLanguage": "to count",
+          "inTheirLanguage": "að telja, ég tel",
+          "type": "v 3"
+        },
+        {
+          "inOurLanguage": "to be possible",
+          "inTheirLanguage": "að vera hægt",
+          "type": ""
+        },
+        {
+          "inOurLanguage": "to know",
+          "inTheirLanguage": "að vita",
+          "type": "v 4"
+        },
+        {
+          "inOurLanguage": "The National Museum",
+          "inTheirLanguage": "Þjóðminjasafnið",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "The Culture House",
+          "inTheirLanguage": "Þjódmenningarhúsið",
+          "type": "n n"
+        },
+        {
+          "inOurLanguage": "three times",
+          "inTheirLanguage": "þrisvar",
+          "type": "adv"
+        },
+        {
+          "inOurLanguage": "two times",
+          "inTheirLanguage": "tvisvar",
+          "type": "adv"
+        }
+      ]
+    },
+
+    {
       "title": "nafnorð",
       "words": [
         {
